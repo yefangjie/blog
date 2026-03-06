@@ -1,4 +1,4 @@
-name: Deploy Hugo Site to GitHub Pages
+name: Deploy Hugo Site and Sync to Blogger
 
 on:
   push:
@@ -10,51 +10,138 @@ permissions:
   pages: write
   id-token: write
 
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
-defaults:
-  run:
-    shell: bash
-
 jobs:
   build:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.146.5
     steps:
-      - name: Install Hugo CLI
-        run: |
-          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb
-          sudo dpkg -i ${{ runner.temp }}/hugo.deb
-          hugo version
-      - name: Install Dart Sass
-        run: sudo snap install dart-sass
       - name: Checkout
         uses: actions/checkout@v4
         with:
           submodules: recursive
           fetch-depth: 0
+      
+      - name: Install Hugo
+        run: |
+          wget -O hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb
+          sudo dpkg -i hugo.deb
+          hugo version
+      
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-      - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-      - name: Build with Hugo
+      
+      - name: Build Hugo Site
         env:
-          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
-          TZ: Asia/Shanghai
-        run: |
-          hugo \
-            --gc \
-            --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+        run: hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: pip install pyyaml requests
+      
+      - name: Sync to Blogger
+        env:
+          BLOGGER_ACCESS_TOKEN: ${{ secrets.BLOGGER_ACCESS_TOKEN }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_BLOG_ID: 5614946579155104969
+        run: |
+          python3 << 'PYEOF'
+          import os
+          import json
+          import requests
+          import yaml
+          from pathlib import Path
+          
+          BLOG_ID = os.getenv('BLOGGER_BLOG_ID')
+          ACCESS_TOKEN = os.getenv('BLOGGER_ACCESS_TOKEN')
+          
+          if not ACCESS_TOKEN:
+              print("⚠️  No Blogger token configured, skipping sync")
+              exit(0)
+          
+          # Get existing Blogger posts
+          try:
+              resp = requests.get(
+                  f'https://www.googleapis.com/blogger/v3/blogs/{BLOG_ID}/posts?maxResults=50',
+                  headers={'Authorization': f'Bearer {ACCESS_TOKEN}'},
+                  timeout=30
+              )
+              blogger_posts = {p['title']: p for p in resp.json().get('items', [])}
+              print(f"📥 Found {len(blogger_posts)} posts on Blogger")
+          except Exception as e:
+              print(f"⚠️  Failed to get Blogger posts: {e}")
+              blogger_posts = {}
+          
+          # Get Hugo posts
+          hugo_dir = Path('content/posts')
+          hugo_posts = {}
+          for md_file in hugo_dir.glob('*.md'):
+              try:
+                  with open(md_file, 'r') as f:
+                      content = f.read()
+                  if content.startswith('---'):
+                      parts = content.split('---', 2)
+                      if len(parts) >= 3:
+                          meta = yaml.safe_load(parts[1])
+                          title = meta.get('title', '')
+                          if title:
+                              hugo_posts[title] = {
+                                  'metadata': meta,
+                                  'body': parts[2].strip()
+                              }
+              except Exception as e:
+                  print(f"⚠️  Error reading {md_file}: {e}")
+          
+          print(f"📥 Found {len(hugo_posts)} posts in Hugo")
+          
+          # Sync new posts to Blogger
+          synced = 0
+          for title, data in hugo_posts.items():
+              if title not in blogger_posts:
+                  print(f"📤 Syncing: {title}")
+                  # Simple markdown to HTML
+                  body = data['body'].replace('\n\n', '</p><p>').replace('# ', '<h2>').replace('## ', '<h3>')
+                  body = f'<p>{body}</p>'
+                  
+                  post_data = {
+                      'title': title,
+                      'content': body,
+                      'labels': data['metadata'].get('tags', [])
+                  }
+                  
+                  try:
+                      resp = requests.post(
+                          f'https://www.googleapis.com/blogger/v3/blogs/{BLOG_ID}/posts/',
+                          headers={
+                              'Authorization': f'Bearer {ACCESS_TOKEN}',
+                              'Content-Type': 'application/json'
+                          },
+                          json=post_data,
+                          timeout=30
+                      )
+                      if resp.status_code == 200:
+                          print(f"✅ Published: {resp.json().get('url')}")
+                          synced += 1
+                      else:
+                          print(f"❌ Failed: {resp.text}")
+                  except Exception as e:
+                      print(f"❌ Error: {e}")
+          
+          print(f"\n✅ Synced {synced} new posts to Blogger")
+          PYEOF
 
   deploy:
     environment:
