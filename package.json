@@ -1,0 +1,11 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "hugo --gc --minify",
+    "dev": "hugo server -D"
+  },
+  "devDependencies": {
+    "vercel": "^37.0.0"
+  }
+}
