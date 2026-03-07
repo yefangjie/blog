@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Anthropic on 技术博客</title>
+    <link>https://yefangjie.github.io/blog/tags/anthropic/</link>
+    <description>Recent content in Anthropic on 技术博客</description>
+    <image>
+      <title>技术博客</title>
+      <url>https://yefangjie.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://yefangjie.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.146.5</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yefangjie.github.io/blog/tags/anthropic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guide to Architect Secure AI Agents: Best Practices for Safety</title>
+      <link>https://yefangjie.github.io/blog/posts/guide-architect-secure-ai-agents-umytqhptyva/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yefangjie.github.io/blog/posts/guide-architect-secure-ai-agents-umytqhptyva/</guid>
+      <description>&lt;h1 id=&#34;guide-to-architect-secure-ai-agents-best-practices-for-safety&#34;&gt;Guide to Architect Secure AI Agents: Best Practices for Safety&lt;/h1&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This IBM Technology video provides a comprehensive guide to architecting secure enterprise AI agents, based on a collaboration between IBM and Anthropic. It covers the paradigm shift required when moving from traditional software to AI agents and provides concrete security frameworks.&lt;/p&gt;
+&lt;h2 id=&#34;the-paradigm-shift&#34;&gt;The Paradigm Shift&lt;/h2&gt;
+&lt;h3 id=&#34;from-deterministic-to-probabilistic&#34;&gt;From Deterministic to Probabilistic&lt;/h3&gt;
+&lt;p&gt;Traditional software follows predictable paths:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Same inputs → Same outputs&lt;/li&gt;
+&lt;li&gt;Clear execution flows&lt;/li&gt;
+&lt;li&gt;Debuggable step-by-step&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;AI agents introduce probability:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

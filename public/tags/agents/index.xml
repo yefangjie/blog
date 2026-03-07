@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Agents on 技术博客</title>
+    <link>https://yefangjie.github.io/blog/tags/agents/</link>
+    <description>Recent content in Agents on 技术博客</description>
+    <image>
+      <title>技术博客</title>
+      <url>https://yefangjie.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://yefangjie.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.146.5</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yefangjie.github.io/blog/tags/agents/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding AI Agent Security: The Driving Analogy</title>
+      <link>https://yefangjie.github.io/blog/posts/understanding-ai-agent-security-saymskxndf4/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yefangjie.github.io/blog/posts/understanding-ai-agent-security-saymskxndf4/</guid>
+      <description>&lt;h1 id=&#34;understanding-ai-agent-security-the-driving-analogy&#34;&gt;Understanding AI Agent Security: The Driving Analogy&lt;/h1&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This IBM Technology video uses an accessible analogy - comparing AI agents to cars - to explain the complex infrastructure needed to secure and govern autonomous AI systems.&lt;/p&gt;
+&lt;h2 id=&#34;the-driving-privilege-analogy&#34;&gt;The Driving Privilege Analogy&lt;/h2&gt;
+&lt;p&gt;The video opens with a powerful comparison:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Driving a car is a privilege, not a right. As a society, we&amp;rsquo;ve developed an infrastructure to govern and secure the way that we exercise that privilege in order to keep us all safe. AI agents need something similar.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

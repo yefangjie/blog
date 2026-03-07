@@ -11,8 +11,162 @@
     </image>
     <generator>Hugo -- 0.146.5</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 06 Mar 2026 12:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://yefangjie.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agentic AI</title>
+      <link>https://yefangjie.github.io/blog/tags/agentic-ai/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yefangjie.github.io/blog/tags/agentic-ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agents</title>
+      <link>https://yefangjie.github.io/blog/tags/agents/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yefangjie.github.io/blog/tags/agents/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI</title>
+      <link>https://yefangjie.github.io/blog/tags/ai/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yefangjie.github.io/blog/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anthropic</title>
+      <link>https://yefangjie.github.io/blog/tags/anthropic/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yefangjie.github.io/blog/tags/anthropic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Architecture</title>
+      <link>https://yefangjie.github.io/blog/tags/architecture/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yefangjie.github.io/blog/tags/architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Best Practices</title>
+      <link>https://yefangjie.github.io/blog/tags/best-practices/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yefangjie.github.io/blog/tags/best-practices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Claude</title>
+      <link>https://yefangjie.github.io/blog/tags/claude/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yefangjie.github.io/blog/tags/claude/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Codex</title>
+      <link>https://yefangjie.github.io/blog/tags/codex/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yefangjie.github.io/blog/tags/codex/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Coding</title>
+      <link>https://yefangjie.github.io/blog/tags/coding/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yefangjie.github.io/blog/tags/coding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Communication</title>
+      <link>https://yefangjie.github.io/blog/tags/communication/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yefangjie.github.io/blog/tags/communication/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Compiler</title>
+      <link>https://yefangjie.github.io/blog/tags/compiler/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yefangjie.github.io/blog/tags/compiler/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google</title>
+      <link>https://yefangjie.github.io/blog/tags/google/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yefangjie.github.io/blog/tags/google/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Governance</title>
+      <link>https://yefangjie.github.io/blog/tags/governance/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yefangjie.github.io/blog/tags/governance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>India</title>
+      <link>https://yefangjie.github.io/blog/tags/india/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yefangjie.github.io/blog/tags/india/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Infrastructure</title>
+      <link>https://yefangjie.github.io/blog/tags/infrastructure/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yefangjie.github.io/blog/tags/infrastructure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Management</title>
+      <link>https://yefangjie.github.io/blog/tags/management/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yefangjie.github.io/blog/tags/management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MCP</title>
+      <link>https://yefangjie.github.io/blog/tags/mcp/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yefangjie.github.io/blog/tags/mcp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Models</title>
+      <link>https://yefangjie.github.io/blog/tags/models/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yefangjie.github.io/blog/tags/models/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Open Source</title>
+      <link>https://yefangjie.github.io/blog/tags/open-source/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yefangjie.github.io/blog/tags/open-source/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenAI</title>
+      <link>https://yefangjie.github.io/blog/tags/openai/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yefangjie.github.io/blog/tags/openai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Prompt Engineering</title>
+      <link>https://yefangjie.github.io/blog/tags/prompt-engineering/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yefangjie.github.io/blog/tags/prompt-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>https://yefangjie.github.io/blog/tags/security/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yefangjie.github.io/blog/tags/security/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Hugo</title>
       <link>https://yefangjie.github.io/blog/tags/hugo/</link>

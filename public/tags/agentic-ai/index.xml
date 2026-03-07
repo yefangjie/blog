@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Agentic AI on 技术博客</title>
+    <link>https://yefangjie.github.io/blog/tags/agentic-ai/</link>
+    <description>Recent content in Agentic AI on 技术博客</description>
+    <image>
+      <title>技术博客</title>
+      <url>https://yefangjie.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://yefangjie.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.146.5</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yefangjie.github.io/blog/tags/agentic-ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude Opus 4.6 Security Risks: Open Source vs Proprietary Agents</title>
+      <link>https://yefangjie.github.io/blog/posts/claude-opus-security-risks-l6lex-yc_rm/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yefangjie.github.io/blog/posts/claude-opus-security-risks-l6lex-yc_rm/</guid>
+      <description>&lt;h1 id=&#34;claude-opus-46-security-risks-open-source-vs-proprietary-agents&#34;&gt;Claude Opus 4.6 Security Risks: Open Source vs Proprietary Agents&lt;/h1&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This IBM Technology segment examines the security implications of Claude Opus 4.6&amp;rsquo;s agent teams feature, with a focus on the trade-offs between open source and proprietary AI agents.&lt;/p&gt;
+&lt;h2 id=&#34;the-power-of-agent-teams&#34;&gt;The Power of Agent Teams&lt;/h2&gt;
+&lt;p&gt;Claude Opus 4.6 introduced a notable capability: agent teams that can work together autonomously. While powerful, this feature raises significant security concerns.&lt;/p&gt;
+&lt;h2 id=&#34;the-opacity-problem&#34;&gt;The Opacity Problem&lt;/h2&gt;
+&lt;p&gt;The speaker identifies a fundamental security challenge:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

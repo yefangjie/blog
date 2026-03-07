@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>India on 技术博客</title>
+    <link>https://yefangjie.github.io/blog/tags/india/</link>
+    <description>Recent content in India on 技术博客</description>
+    <image>
+      <title>技术博客</title>
+      <url>https://yefangjie.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://yefangjie.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.146.5</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yefangjie.github.io/blog/tags/india/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>India&#39;s $200B AI Hub &amp; Claude Builds C Compiler: IBM Mixture of Experts Analysis</title>
+      <link>https://yefangjie.github.io/blog/posts/india-ai-hub-claude-compiler-3wb6ca4cbiq/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yefangjie.github.io/blog/posts/india-ai-hub-claude-compiler-3wb6ca4cbiq/</guid>
+      <description>&lt;h1 id=&#34;indias-200b-ai-hub--claude-builds-c-compiler-ibm-mixture-of-experts-analysis&#34;&gt;India&amp;rsquo;s $200B AI Hub &amp;amp; Claude Builds C Compiler: IBM Mixture of Experts Analysis&lt;/h1&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This episode of IBM&amp;rsquo;s Mixture of Experts podcast, hosted by Matt Kazinski with guests Mihi Crevetti, Martin Keane, and Kush Varsny, covers three major topics in AI: Google&amp;rsquo;s massive AI infrastructure investment in India, Anthropic&amp;rsquo;s Claude building a C compiler using multi-agent systems, and the broader implications for AI ROI and security.&lt;/p&gt;
+&lt;h2 id=&#34;googles-200b-india-ai-infrastructure-deal&#34;&gt;Google&amp;rsquo;s $200B India AI Infrastructure Deal&lt;/h2&gt;
+&lt;h3 id=&#34;the-scale-of-investment&#34;&gt;The Scale of Investment&lt;/h3&gt;
+&lt;p&gt;At the AI Impact Summit in India, Google and DeepMind announced a historic $15 billion initial deal to build an AI hub, with plans for up to $200 billion in total data center investments. This represents one of the largest AI infrastructure commitments in history.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

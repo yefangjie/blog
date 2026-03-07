@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI on 技术博客</title>
+    <link>https://yefangjie.github.io/blog/tags/ai/</link>
+    <description>Recent content in AI on 技术博客</description>
+    <image>
+      <title>技术博客</title>
+      <url>https://yefangjie.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://yefangjie.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.146.5</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yefangjie.github.io/blog/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Better Instructions, Better AI Results: The Communication Gap</title>
+      <link>https://yefangjie.github.io/blog/posts/better-instructions-better-ai-results-ajesffzvfay/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yefangjie.github.io/blog/posts/better-instructions-better-ai-results-ajesffzvfay/</guid>
+      <description>&lt;h1 id=&#34;better-instructions-better-ai-results-the-communication-gap&#34;&gt;Better Instructions, Better AI Results: The Communication Gap&lt;/h1&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This IBM Technology video explores a fundamental shift in how we interact with AI systems - the recognition that clear, precise communication with AI agents requires the same (or greater) level of care as managing human teams.&lt;/p&gt;
+&lt;h2 id=&#34;the-management-analogy&#34;&gt;The Management Analogy&lt;/h2&gt;
+&lt;p&gt;The speaker draws an interesting parallel between managing AI agents and raising children:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;It&amp;rsquo;s the argument like are you becoming a better manager when you have children, right? And I think you do because you have more patience.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Claude Opus 4.6 Security Risks: Open Source vs Proprietary Agents</title>
+      <link>https://yefangjie.github.io/blog/posts/claude-opus-security-risks-l6lex-yc_rm/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yefangjie.github.io/blog/posts/claude-opus-security-risks-l6lex-yc_rm/</guid>
+      <description>&lt;h1 id=&#34;claude-opus-46-security-risks-open-source-vs-proprietary-agents&#34;&gt;Claude Opus 4.6 Security Risks: Open Source vs Proprietary Agents&lt;/h1&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This IBM Technology segment examines the security implications of Claude Opus 4.6&amp;rsquo;s agent teams feature, with a focus on the trade-offs between open source and proprietary AI agents.&lt;/p&gt;
+&lt;h2 id=&#34;the-power-of-agent-teams&#34;&gt;The Power of Agent Teams&lt;/h2&gt;
+&lt;p&gt;Claude Opus 4.6 introduced a notable capability: agent teams that can work together autonomously. While powerful, this feature raises significant security concerns.&lt;/p&gt;
+&lt;h2 id=&#34;the-opacity-problem&#34;&gt;The Opacity Problem&lt;/h2&gt;
+&lt;p&gt;The speaker identifies a fundamental security challenge:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Guide to Architect Secure AI Agents: Best Practices for Safety</title>
+      <link>https://yefangjie.github.io/blog/posts/guide-architect-secure-ai-agents-umytqhptyva/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yefangjie.github.io/blog/posts/guide-architect-secure-ai-agents-umytqhptyva/</guid>
+      <description>&lt;h1 id=&#34;guide-to-architect-secure-ai-agents-best-practices-for-safety&#34;&gt;Guide to Architect Secure AI Agents: Best Practices for Safety&lt;/h1&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This IBM Technology video provides a comprehensive guide to architecting secure enterprise AI agents, based on a collaboration between IBM and Anthropic. It covers the paradigm shift required when moving from traditional software to AI agents and provides concrete security frameworks.&lt;/p&gt;
+&lt;h2 id=&#34;the-paradigm-shift&#34;&gt;The Paradigm Shift&lt;/h2&gt;
+&lt;h3 id=&#34;from-deterministic-to-probabilistic&#34;&gt;From Deterministic to Probabilistic&lt;/h3&gt;
+&lt;p&gt;Traditional software follows predictable paths:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Same inputs → Same outputs&lt;/li&gt;
+&lt;li&gt;Clear execution flows&lt;/li&gt;
+&lt;li&gt;Debuggable step-by-step&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;AI agents introduce probability:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>India&#39;s $200B AI Hub &amp; Claude Builds C Compiler: IBM Mixture of Experts Analysis</title>
+      <link>https://yefangjie.github.io/blog/posts/india-ai-hub-claude-compiler-3wb6ca4cbiq/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yefangjie.github.io/blog/posts/india-ai-hub-claude-compiler-3wb6ca4cbiq/</guid>
+      <description>&lt;h1 id=&#34;indias-200b-ai-hub--claude-builds-c-compiler-ibm-mixture-of-experts-analysis&#34;&gt;India&amp;rsquo;s $200B AI Hub &amp;amp; Claude Builds C Compiler: IBM Mixture of Experts Analysis&lt;/h1&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This episode of IBM&amp;rsquo;s Mixture of Experts podcast, hosted by Matt Kazinski with guests Mihi Crevetti, Martin Keane, and Kush Varsny, covers three major topics in AI: Google&amp;rsquo;s massive AI infrastructure investment in India, Anthropic&amp;rsquo;s Claude building a C compiler using multi-agent systems, and the broader implications for AI ROI and security.&lt;/p&gt;
+&lt;h2 id=&#34;googles-200b-india-ai-infrastructure-deal&#34;&gt;Google&amp;rsquo;s $200B India AI Infrastructure Deal&lt;/h2&gt;
+&lt;h3 id=&#34;the-scale-of-investment&#34;&gt;The Scale of Investment&lt;/h3&gt;
+&lt;p&gt;At the AI Impact Summit in India, Google and DeepMind announced a historic $15 billion initial deal to build an AI hub, with plans for up to $200 billion in total data center investments. This represents one of the largest AI infrastructure commitments in history.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Opus 4.6 vs GPT-5.3-Codex: AI Coding Model Showdown</title>
+      <link>https://yefangjie.github.io/blog/posts/opus-vs-codex-if9uvjqum38/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yefangjie.github.io/blog/posts/opus-vs-codex-if9uvjqum38/</guid>
+      <description>&lt;h1 id=&#34;opus-46-vs-gpt-53-codex-ai-coding-model-showdown&#34;&gt;Opus 4.6 vs GPT-5.3-Codex: AI Coding Model Showdown&lt;/h1&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This IBM Technology segment compares two leading AI coding models: Claude&amp;rsquo;s Opus 4.6 and OpenAI&amp;rsquo;s GPT-5.3-Codex. The speaker shares practical insights from hands-on experience with both systems.&lt;/p&gt;
+&lt;h2 id=&#34;the-ai-super-bowl-timing&#34;&gt;The AI Super Bowl Timing&lt;/h2&gt;
+&lt;p&gt;The speaker notes the interesting timing of these model releases:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;It is great to see the AI Super Bowl play out just before the real Super Bowl takes place over the weekend and I don&amp;rsquo;t think that timing is unrelated.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Understanding AI Agent Security: The Driving Analogy</title>
+      <link>https://yefangjie.github.io/blog/posts/understanding-ai-agent-security-saymskxndf4/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yefangjie.github.io/blog/posts/understanding-ai-agent-security-saymskxndf4/</guid>
+      <description>&lt;h1 id=&#34;understanding-ai-agent-security-the-driving-analogy&#34;&gt;Understanding AI Agent Security: The Driving Analogy&lt;/h1&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This IBM Technology video uses an accessible analogy - comparing AI agents to cars - to explain the complex infrastructure needed to secure and govern autonomous AI systems.&lt;/p&gt;
+&lt;h2 id=&#34;the-driving-privilege-analogy&#34;&gt;The Driving Privilege Analogy&lt;/h2&gt;
+&lt;p&gt;The video opens with a powerful comparison:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Driving a car is a privilege, not a right. As a society, we&amp;rsquo;ve developed an infrastructure to govern and secure the way that we exercise that privilege in order to keep us all safe. AI agents need something similar.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

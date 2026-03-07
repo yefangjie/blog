@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Coding on 技术博客</title>
+    <link>https://yefangjie.github.io/blog/tags/coding/</link>
+    <description>Recent content in Coding on 技术博客</description>
+    <image>
+      <title>技术博客</title>
+      <url>https://yefangjie.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://yefangjie.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.146.5</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yefangjie.github.io/blog/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Opus 4.6 vs GPT-5.3-Codex: AI Coding Model Showdown</title>
+      <link>https://yefangjie.github.io/blog/posts/opus-vs-codex-if9uvjqum38/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yefangjie.github.io/blog/posts/opus-vs-codex-if9uvjqum38/</guid>
+      <description>&lt;h1 id=&#34;opus-46-vs-gpt-53-codex-ai-coding-model-showdown&#34;&gt;Opus 4.6 vs GPT-5.3-Codex: AI Coding Model Showdown&lt;/h1&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This IBM Technology segment compares two leading AI coding models: Claude&amp;rsquo;s Opus 4.6 and OpenAI&amp;rsquo;s GPT-5.3-Codex. The speaker shares practical insights from hands-on experience with both systems.&lt;/p&gt;
+&lt;h2 id=&#34;the-ai-super-bowl-timing&#34;&gt;The AI Super Bowl Timing&lt;/h2&gt;
+&lt;p&gt;The speaker notes the interesting timing of these model releases:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;It is great to see the AI Super Bowl play out just before the real Super Bowl takes place over the weekend and I don&amp;rsquo;t think that timing is unrelated.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

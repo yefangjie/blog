@@ -2,6 +2,99 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://yefangjie.github.io/blog/tags/agentic-ai/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yefangjie.github.io/blog/tags/agents/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yefangjie.github.io/blog/tags/ai/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yefangjie.github.io/blog/tags/anthropic/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yefangjie.github.io/blog/tags/architecture/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yefangjie.github.io/blog/tags/best-practices/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yefangjie.github.io/blog/posts/better-instructions-better-ai-results-ajesffzvfay/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yefangjie.github.io/blog/tags/claude/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yefangjie.github.io/blog/posts/claude-opus-security-risks-l6lex-yc_rm/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yefangjie.github.io/blog/tags/codex/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yefangjie.github.io/blog/tags/coding/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yefangjie.github.io/blog/tags/communication/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yefangjie.github.io/blog/tags/compiler/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yefangjie.github.io/blog/tags/google/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yefangjie.github.io/blog/tags/governance/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yefangjie.github.io/blog/posts/guide-architect-secure-ai-agents-umytqhptyva/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yefangjie.github.io/blog/tags/india/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yefangjie.github.io/blog/posts/india-ai-hub-claude-compiler-3wb6ca4cbiq/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yefangjie.github.io/blog/tags/infrastructure/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yefangjie.github.io/blog/tags/management/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yefangjie.github.io/blog/tags/mcp/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yefangjie.github.io/blog/tags/models/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yefangjie.github.io/blog/tags/open-source/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yefangjie.github.io/blog/tags/openai/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yefangjie.github.io/blog/posts/opus-vs-codex-if9uvjqum38/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yefangjie.github.io/blog/posts/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yefangjie.github.io/blog/tags/prompt-engineering/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yefangjie.github.io/blog/tags/security/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yefangjie.github.io/blog/tags/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yefangjie.github.io/blog/posts/understanding-ai-agent-security-saymskxndf4/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yefangjie.github.io/blog/</loc>
+    <lastmod>2026-03-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://yefangjie.github.io/blog/categories/</loc>
     <lastmod>2026-03-06T12:00:00+08:00</lastmod>
   </url><url>
@@ -11,12 +104,6 @@
     <loc>https://yefangjie.github.io/blog/tags/papermod/</loc>
     <lastmod>2026-03-06T12:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://yefangjie.github.io/blog/posts/</loc>
-    <lastmod>2026-03-06T12:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://yefangjie.github.io/blog/tags/</loc>
-    <lastmod>2026-03-06T12:00:00+08:00</lastmod>
-  </url><url>
     <loc>https://yefangjie.github.io/blog/tags/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2026-03-06T12:00:00+08:00</lastmod>
   </url><url>
@@ -24,9 +111,6 @@
     <lastmod>2026-03-06T12:00:00+08:00</lastmod>
   </url><url>
     <loc>https://yefangjie.github.io/blog/categories/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2026-03-06T12:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://yefangjie.github.io/blog/</loc>
     <lastmod>2026-03-06T12:00:00+08:00</lastmod>
   </url><url>
     <loc>https://yefangjie.github.io/blog/archives/</loc>
