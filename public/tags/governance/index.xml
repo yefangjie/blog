@@ -4,15 +4,44 @@
     <title>Governance on 技术博客</title>
     <link>https://yefangjie.github.io/blog/tags/governance/</link>
     <description>Recent content in Governance on 技术博客</description>
-    <image>
-      <title>技术博客</title>
-      <url>https://yefangjie.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://yefangjie.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
     <generator>Hugo -- 0.146.5</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 09:00:00 +0800</lastBuildDate>
     <atom:link href="https://yefangjie.github.io/blog/tags/governance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Who&#39;s Accountable for AI Agents?</title>
+      <link>https://yefangjie.github.io/blog/posts/ai-accountability-jfnpczpp6y/</link>
+      <pubDate>Mon, 23 Mar 2026 09:00:00 +0800</pubDate>
+      <guid>https://yefangjie.github.io/blog/posts/ai-accountability-jfnpczpp6y/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Examining the complex question of accountability in AI agent systems.&lt;/p&gt;
+&lt;h2 id=&#34;the-accountability-problem&#34;&gt;The Accountability Problem&lt;/h2&gt;
+&lt;p&gt;Why it&amp;rsquo;s complex:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Autonomous decision-making&lt;/strong&gt; by AI systems&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multiple stakeholders&lt;/strong&gt; in agent ecosystems&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Opaque reasoning&lt;/strong&gt; in AI decision processes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;stakeholder-perspectives&#34;&gt;Stakeholder Perspectives&lt;/h2&gt;
+&lt;h3 id=&#34;end-users&#34;&gt;End Users&lt;/h3&gt;
+&lt;p&gt;Responsible for intent and oversight, must understand agent capabilities.&lt;/p&gt;
+&lt;h3 id=&#34;ai-developers&#34;&gt;AI Developers&lt;/h3&gt;
+&lt;p&gt;Responsible for design, safety, guardrails, and testing.&lt;/p&gt;
+&lt;h3 id=&#34;platform-providers&#34;&gt;Platform Providers&lt;/h3&gt;
+&lt;p&gt;Responsible for infrastructure, access controls, and monitoring.&lt;/p&gt;
+&lt;h2 id=&#34;key-takeaways&#34;&gt;Key Takeaways&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Accountability is &lt;strong&gt;distributed&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Context matters for different scenarios&lt;/li&gt;
+&lt;li&gt;Legal frameworks are still evolving&lt;/li&gt;
+&lt;li&gt;Human oversight remains crucial&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Full Presentation&lt;/strong&gt;: &lt;a href=&#34;https://github.com/yefangjie/video-JfnpcZpP6-Y&#34;&gt;https://github.com/yefangjie/video-JfnpcZpP6-Y&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Original Video&lt;/strong&gt;: IBM Technology&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Understanding AI Agent Security: The Driving Analogy</title>
       <link>https://yefangjie.github.io/blog/posts/understanding-ai-agent-security-saymskxndf4/</link>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Security on 技术博客</title>
+    <link>https://yefangjie.github.io/blog/categories/security/</link>
+    <description>Recent content in Security on 技术博客</description>
+    <generator>Hugo -- 0.146.5</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 23 Mar 2026 09:00:00 +0800</lastBuildDate>
+    <atom:link href="https://yefangjie.github.io/blog/categories/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Personal VPNs: Encryption Myths and Data Security Explained</title>
+      <link>https://yefangjie.github.io/blog/posts/personal-vpns-2fctrjmdqyg/</link>
+      <pubDate>Mon, 23 Mar 2026 09:00:00 +0800</pubDate>
+      <guid>https://yefangjie.github.io/blog/posts/personal-vpns-2fctrjmdqyg/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This IBM Security Intelligence episode demystifies personal VPNs, separating marketing hype from technical reality.&lt;/p&gt;
+&lt;h2 id=&#34;what-vpns-actually-do&#34;&gt;What VPNs Actually Do&lt;/h2&gt;
+&lt;h3 id=&#34;core-functions&#34;&gt;Core Functions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Traffic encryption&lt;/strong&gt; between your device and VPN server&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IP address masking&lt;/strong&gt; by routing through VPN server&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Location spoofing&lt;/strong&gt; to bypass geographic restrictions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Network tunneling&lt;/strong&gt; on untrusted networks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;what-vpns-dont-do&#34;&gt;What VPNs Don&amp;rsquo;t Do&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Complete anonymity (fingerprinting still works)&lt;/li&gt;
+&lt;li&gt;Protection from all tracking&lt;/li&gt;
+&lt;li&gt;Automatic security (user behavior matters)&lt;/li&gt;
+&lt;li&gt;Malware protection&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;common-encryption-myths&#34;&gt;Common Encryption Myths&lt;/h2&gt;
+&lt;h3 id=&#34;myth-1-vpns-make-you-completely-anonymous&#34;&gt;Myth 1: &amp;ldquo;VPNs Make You Completely Anonymous&amp;rdquo;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Reality&lt;/strong&gt;: VPNs hide your IP but don&amp;rsquo;t prevent browser fingerprinting, cookie tracking, or account-based tracking.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

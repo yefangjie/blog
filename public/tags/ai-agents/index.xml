@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI Agents on 技术博客</title>
+    <link>https://yefangjie.github.io/blog/tags/ai-agents/</link>
+    <description>Recent content in AI Agents on 技术博客</description>
+    <generator>Hugo -- 0.146.5</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 23 Mar 2026 09:00:00 +0800</lastBuildDate>
+    <atom:link href="https://yefangjie.github.io/blog/tags/ai-agents/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NVIDIA NemoClaw, OpenAI&#39;s Pivot and Shopify Agents</title>
+      <link>https://yefangjie.github.io/blog/posts/nvidia-nemoclaw-ce-p69dv1jw/</link>
+      <pubDate>Mon, 23 Mar 2026 09:00:00 +0800</pubDate>
+      <guid>https://yefangjie.github.io/blog/posts/nvidia-nemoclaw-ce-p69dv1jw/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Major developments in the AI agent ecosystem: NVIDIA&amp;rsquo;s NemoClaw framework, OpenAI&amp;rsquo;s strategic pivot, and Shopify&amp;rsquo;s approach to AI agents.&lt;/p&gt;
+&lt;h2 id=&#34;nvidia-nemoclaw&#34;&gt;NVIDIA NemoClaw&lt;/h2&gt;
+&lt;p&gt;NVIDIA&amp;rsquo;s framework for building and deploying AI agents:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Enterprise-grade&lt;/strong&gt; agent development platform&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integration&lt;/strong&gt; with NVIDIA&amp;rsquo;s AI stack&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scalable&lt;/strong&gt; deployment infrastructure&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Domain-specific&lt;/strong&gt; agent capabilities&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;openais-strategic-pivot&#34;&gt;OpenAI&amp;rsquo;s Strategic Pivot&lt;/h2&gt;
+&lt;p&gt;OpenAI is evolving from API provider to platform company:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Agent-first&lt;/strong&gt; strategy development&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enterprise partnerships&lt;/strong&gt; deepening&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vertical solutions&lt;/strong&gt; instead of general-purpose APIs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;shopify-agents&#34;&gt;Shopify Agents&lt;/h2&gt;
+&lt;p&gt;Shopify&amp;rsquo;s approach to AI agents in e-commerce:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

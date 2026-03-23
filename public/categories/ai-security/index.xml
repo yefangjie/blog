@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI Security on 技术博客</title>
+    <link>https://yefangjie.github.io/blog/categories/ai-security/</link>
+    <description>Recent content in AI Security on 技术博客</description>
+    <generator>Hugo -- 0.146.5</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 23 Mar 2026 09:00:00 +0800</lastBuildDate>
+    <atom:link href="https://yefangjie.github.io/blog/categories/ai-security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is Agentic Security Runtime? Securing AI Agents</title>
+      <link>https://yefangjie.github.io/blog/posts/agentic-security-runtime-nh0plidqdmk/</link>
+      <pubDate>Mon, 23 Mar 2026 09:00:00 +0800</pubDate>
+      <guid>https://yefangjie.github.io/blog/posts/agentic-security-runtime-nh0plidqdmk/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This video explores the emerging field of agentic security runtime - a critical new layer of security designed specifically for AI agents that operate autonomously.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-agentic-security-runtime&#34;&gt;What is Agentic Security Runtime?&lt;/h2&gt;
+&lt;p&gt;Agentic Security Runtime is a security framework designed specifically for AI agents:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Real-time monitoring&lt;/strong&gt; of agent behavior and decision-making&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Policy enforcement&lt;/strong&gt; at the point of action&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Continuous validation&lt;/strong&gt; of agent activities against security baselines&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Runtime protection&lt;/strong&gt; rather than just pre-deployment security checks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;why-traditional-security-fails-for-ai-agents&#34;&gt;Why Traditional Security Fails for AI Agents&lt;/h2&gt;
+&lt;p&gt;Traditional security approaches are inadequate because:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

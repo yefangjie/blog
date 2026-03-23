@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI Infrastructure on 技术博客</title>
+    <link>https://yefangjie.github.io/blog/tags/ai-infrastructure/</link>
+    <description>Recent content in AI Infrastructure on 技术博客</description>
+    <generator>Hugo -- 0.146.5</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 23 Mar 2026 09:00:00 +0800</lastBuildDate>
+    <atom:link href="https://yefangjie.github.io/blog/tags/ai-infrastructure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Did Meta Acquire Moltbook?</title>
+      <link>https://yefangjie.github.io/blog/posts/meta-moltbook-crdiktybre/</link>
+      <pubDate>Mon, 23 Mar 2026 09:00:00 +0800</pubDate>
+      <guid>https://yefangjie.github.io/blog/posts/meta-moltbook-crdiktybre/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Analysis of Meta&amp;rsquo;s strategic acquisition of Moltbook and implications for AI infrastructure.&lt;/p&gt;
+&lt;h2 id=&#34;strategic-rationale&#34;&gt;Strategic Rationale&lt;/h2&gt;
+&lt;h3 id=&#34;1-ai-efficiency-imperative&#34;&gt;1. AI Efficiency Imperative&lt;/h3&gt;
+&lt;p&gt;Meta&amp;rsquo;s massive AI investments need optimization:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cost reduction&lt;/strong&gt; for training and inference&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scalability&lt;/strong&gt; improvements for LLaMA&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Latency reduction&lt;/strong&gt; for real-time applications&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-metaverse-infrastructure&#34;&gt;2. Metaverse Infrastructure&lt;/h3&gt;
+&lt;p&gt;Moltbook&amp;rsquo;s tech applies to metaverse workloads:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Real-time AI&lt;/strong&gt; for virtual environments&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3D content generation&lt;/strong&gt; efficiency&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Spatial computing&lt;/strong&gt; optimization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-competitive-positioning&#34;&gt;3. Competitive Positioning&lt;/h3&gt;
+&lt;p&gt;Catching up to Google and OpenAI in AI infrastructure race.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hardware on 技术博客</title>
+    <link>https://yefangjie.github.io/blog/tags/hardware/</link>
+    <description>Recent content in Hardware on 技术博客</description>
+    <generator>Hugo -- 0.146.5</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 23 Mar 2026 09:00:00 +0800</lastBuildDate>
+    <atom:link href="https://yefangjie.github.io/blog/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why IoT Devices Fail: Security Challenges in Connected Hardware</title>
+      <link>https://yefangjie.github.io/blog/posts/why-iot-fails-b8sux6kpeeq/</link>
+      <pubDate>Mon, 23 Mar 2026 09:00:00 +0800</pubDate>
+      <guid>https://yefangjie.github.io/blog/posts/why-iot-fails-b8sux6kpeeq/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Persistent security challenges facing IoT devices and why the problem continues.&lt;/p&gt;
+&lt;h2 id=&#34;the-core-problem&#34;&gt;The Core Problem&lt;/h2&gt;
+&lt;h3 id=&#34;a-history-of-insecurity&#34;&gt;A History of Insecurity&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;IoT security has been a concern &amp;ldquo;forever&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Devices continue shipping with inadequate security&lt;/li&gt;
+&lt;li&gt;Consumer-grade security in enterprise deployments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;root-causes&#34;&gt;Root Causes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cost pressure&lt;/strong&gt; drives security to the bottom&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Speed to market&lt;/strong&gt; trumps security review&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;No secure-by-design&lt;/strong&gt; approach&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;notable-incidents&#34;&gt;Notable Incidents&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mirai Botnet (2016)&lt;/strong&gt;: 600,000+ compromised devices&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ring Camera Hacks (2019)&lt;/strong&gt;: Unauthorized home access&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Smart Home Data Leaks&lt;/strong&gt;: Unencrypted transmission&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;solutions&#34;&gt;Solutions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Secure Boot&lt;/strong&gt;: Verify firmware integrity&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Network Segmentation&lt;/strong&gt;: Isolate IoT devices&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mandatory Updates&lt;/strong&gt;: Legal requirements for support&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Full Presentation&lt;/strong&gt;: &lt;a href=&#34;https://github.com/yefangjie/video-b8suX6kpEEQ&#34;&gt;https://github.com/yefangjie/video-b8suX6kpEEQ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Original Video&lt;/strong&gt;: IBM Security Intelligence&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

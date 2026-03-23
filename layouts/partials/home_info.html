@@ -1,0 +1,86 @@
+{{ if .Site.Params.profileMode.enabled }}
+<div class="profile-container">
+    <div class="profile-image-wrapper">
+        {{ if .Site.Params.profileMode.imageUrl }}
+        <img src="{{ .Site.Params.profileMode.imageUrl }}" 
+             alt="{{ .Site.Params.profileMode.imageTitle | default "profile image" }}"
+             width="{{ .Site.Params.profileMode.imageWidth | default 150 }}"
+             height="{{ .Site.Params.profileMode.imageHeight | default 150 }}"
+             class="profile-image" />
+        {{ end }}
+    </div>
+    <div class="profile-content">
+        <h1 class="profile-title">{{ .Site.Params.profileMode.title | default .Site.Title }}</h1>
+        <p class="profile-subtitle">{{ .Site.Params.profileMode.subtitle }}</p>
+        
+        {{ if .Site.Params.profileMode.buttons }}
+        <div class="profile-buttons">
+            {{ range .Site.Params.profileMode.buttons }}
+            <a href="{{ .url | absURL }}" class="profile-button">{{ .name }}</a>
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+</div>
+
+<style>
+.profile-container {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 20px;
+    margin-bottom: 40px;
+    color: white;
+}
+.profile-image-wrapper {
+    margin-bottom: 24px;
+}
+.profile-image {
+    border-radius: 50%;
+    border: 4px solid rgba(255,255,255,0.3);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+.profile-title {
+    font-size: 2.8em;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: white;
+}
+.profile-subtitle {
+    font-size: 1.2em;
+    opacity: 0.9;
+    margin-bottom: 32px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile-buttons {
+    margin: 32px 0;
+}
+.profile-button {
+    display: inline-block;
+    background: rgba(255,255,255,0.2);
+    color: white;
+    padding: 12px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin: 0 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: 2px solid rgba(255,255,255,0.3);
+}
+.profile-button:hover {
+    background: rgba(255,255,255,0.3);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+@media (max-width: 768px) {
+    .profile-title {
+        font-size: 2em;
+    }
+    .profile-container {
+        padding: 40px 16px;
+    }
+}
+</style>
+{{ end }}
