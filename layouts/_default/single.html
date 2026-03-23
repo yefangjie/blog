@@ -1,62 +1,81 @@
 {{ define "main" }}
-<article class="post-single">
-    <header class="post-header">
-        <div class="post-header-content">
-            <div class="post-meta-top">
-                {{ range .Params.categories }}
-                <a href="/categories/{{ . | urlize }}" class="post-category">{{ . }}</a>
-                {{ end }}
-            </div>
-            <h1 class="post-title">{{ .Title }}</h1>
-            <div class="post-meta">
-                <time>{{ .Date.Format "2006年1月2日" }}</time>
-                <span class="separator">·</span>
-                <span>{{ .ReadingTime }} 分钟阅读</span>
-                <span class="separator">·</span>
-                <span>{{ .WordCount }} 字</span>
-            </div>
-            
-            {{ if .Params.tags }}
-            <div class="post-tags">
-                {{ range .Params.tags }}
-                <a href="/tags/{{ . | urlize }}" class="post-tag">{{ . }}</a>
-                {{ end }}
-            </div>
-            {{ end }}
-        </div>
-    </header>
+<article class="post-single" role="article" data-testid="article-{{ .File.UniqueID }}">
+  <header class="post-header">
+    <nav aria-label="面包屑导航" class="breadcrumbs">
+      <a href="/" data-ai-action="navigate-home">首页</a>
+      <span aria-hidden="true">/</span>
+      <a href="/posts/" data-ai-action="view-all-posts">文章</a>
+      <span aria-hidden="true">/</span>
+      <span aria-current="page">{{ .Title }}</span>
+    </nav>
 
-    <div class="post-content-wrapper">
-        {{ if .Params.toc }}
-        <aside class="toc-sidebar">
-            <div class="toc-wrapper">
-                <h3>目录</h3>
-                {{ .TableOfContents }}
-            </div>
-        </aside>
+    <div class="post-header-content">
+      {{ range .Params.categories }}
+      <a href="/categories/{{ . | urlize }}" 
+         class="post-category"
+         data-ai-category="{{ . }}">{{ . }}</a>
+      {{ end }}
+      
+      <h1 class="post-title" data-testid="article-title">{{ .Title }}</h1>
+      
+      <div class="post-meta">
+        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2006年1月2日" }}</time>
+        <span aria-hidden="true">·</span>
+        <span>{{ .ReadingTime }} 分钟阅读</span>
+        <span aria-hidden="true">·</span>
+        <span>{{ .WordCount }} 字</span>
+      </div>
+      
+      {{ if .Params.tags }}
+      <div class="post-tags" role="list" aria-label="文章标签">
+        {{ range .Params.tags }}
+        <a href="/tags/{{ . | urlize }}" 
+           class="post-tag"
+           role="listitem"
+           data-ai-tag="{{ . }}">{{ . }}</a>
         {{ end }}
-
-        <div class="post-content">
-            {{ .Content }}
-        </div>
+      </div>
+      {{ end }}
     </div>
+  </header>
 
-    <footer class="post-footer">
-        <div class="post-nav">
-            {{ with .PrevInSection }}
-            <a href="{{ .Permalink }}" class="post-nav-prev">
-                <span>上一篇</span>
-                <strong>{{ .Title }}</strong>
-            </a>
-            {{ end }}
-            
-            {{ with .NextInSection }}
-            <a href="{{ .Permalink }}" class="post-nav-next">
-                <span>下一篇</span>
-                <strong>{{ .Title }}</strong>
-            </a>
-            {{ end }}
-        </div>
-    </footer>
+  <div class="post-content-wrapper">
+    {{ if .Params.toc }}
+    <aside class="toc-sidebar" role="complementary" aria-label="文章目录">
+      <div class="toc-wrapper">
+        <h2>目录</h2>
+        {{ .TableOfContents }}
+      </div>
+    </aside>
+    {{ end }}
+
+    <div class="post-content" data-testid="article-content">
+      {{ .Content }}
+    </div>
+  </div>
+
+  <footer class="post-footer">
+    <nav class="post-nav" aria-label="文章导航">
+      {{ with .PrevInSection }}
+      <a href="{{ .Permalink }}" 
+         class="post-nav-prev"
+         data-testid="prev-post"
+         data-ai-action="navigate-prev">
+        <span>上一篇</span>
+        <strong>{{ .Title }}</strong>
+      </a>
+      {{ end }}
+      
+      {{ with .NextInSection }}
+      <a href="{{ .Permalink }}" 
+         class="post-nav-next"
+         data-testid="next-post"
+         data-ai-action="navigate-next">
+        <span>下一篇</span>
+        <strong>{{ .Title }}</strong>
+      </a>
+      {{ end }}
+    </nav>
+  </footer>
 </article>
 {{ end }}

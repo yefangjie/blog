@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "zh-CN" }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ .Params.description | default .Site.Params.description }}">
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+  {{ hugo.Generator }}
+</head>
+<body>
+  <header role="banner" data-testid="site-header">
+    <nav role="navigation" aria-label="main navigation">
+      <a href="{{ .Site.BaseURL }}" data-ai-action="navigate-home">{{ .Site.Title }}</a>
+    </nav>
+  </header>
+  <main role="main">
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer role="contentinfo">
+    <p>{{ .Site.Params.footer.text }}</p>
+  </footer>
+</body>
+</html>
