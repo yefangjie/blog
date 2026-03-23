@@ -1,0 +1,49 @@
+{{ define "main" }}
+<div class="home-container">
+    {{ if .Site.Params.profileMode.enabled }}
+    <div class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">{{ .Site.Params.profileMode.title | default .Site.Title }}</h1>
+            <p class="hero-subtitle">{{ .Site.Params.profileMode.subtitle }}</p>
+            {{ if .Site.Params.profileMode.buttons }}
+            <div class="hero-buttons">
+                {{ range .Site.Params.profileMode.buttons }}
+                <a href="{{ .url | absURL }}" class="hero-btn">{{ .name }}</a>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+
+    <div class="content-wrapper">
+        <div class="main-content">
+            <div class="section-header">
+                <h2>最新文章</h2>
+                <a href="/posts/" class="view-all">查看全部 →</a>
+            </div>
+
+            <div class="posts-grid">
+                {{ range (.Paginate .Pages).Pages }}
+                <article class="post-card">
+                    <a href="{{ .Permalink }}" class="post-card-link">
+                        <div class="post-card-header">
+                            <div class="post-meta">
+                                <time>{{ .Date.Format "2006-01-02" }}</time>
+                            </div>
+                        </div>
+                        <h3 class="post-card-title">{{ .Title }}</h3>
+                        <div class="post-card-summary">
+                            {{ .Summary | truncate 120 }}
+                        </div>
+                        <div class="post-card-footer">
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                </article>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
