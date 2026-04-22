@@ -127,6 +127,70 @@
 }
 
 /* 手机 */
+/* 卡片式排版 */
+.article-cards-grid {
+    display: grid;
+    gap: 1rem;
+    margin: 1.2rem 0 1.6rem;
+}
+
+.article-cards-grid.cards-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.article-cards-grid.cards-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.article-card {
+    border: 1px solid var(--border);
+    background: var(--entry);
+    border-radius: 18px;
+    padding: 1rem 1rem 0.85rem;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+}
+
+.article-card-title {
+    font-size: 0.96rem;
+    font-weight: 700;
+    margin-bottom: 0.65rem;
+    line-height: 1.4;
+}
+
+.article-card-body {
+    font-size: 0.96rem;
+    line-height: 1.75;
+    color: var(--primary);
+}
+
+.article-card-body > *:last-child {
+    margin-bottom: 0;
+}
+
+.article-card-body ul,
+.article-card-body ol {
+    margin: 0;
+    padding-left: 1.1rem;
+}
+
+.article-card-body li {
+    margin-bottom: 0.5rem;
+}
+
+.article-card.card-primary {
+    border-color: rgba(102, 126, 234, 0.28);
+    background: linear-gradient(180deg, rgba(102, 126, 234, 0.08), rgba(102, 126, 234, 0.02));
+}
+
+.article-card.card-muted {
+    background: linear-gradient(180deg, rgba(148, 163, 184, 0.10), rgba(148, 163, 184, 0.04));
+}
+
+.article-card.card-warning {
+    border-color: rgba(245, 158, 11, 0.28);
+    background: linear-gradient(180deg, rgba(245, 158, 11, 0.10), rgba(245, 158, 11, 0.04));
+}
+
 @media (max-width: 640px) {
     .post-single {
         max-width: 100%;
@@ -179,5 +243,24 @@
     .post-content h3 {
         font-size: 1.12rem;
         margin-top: 1.4rem;
+    }
+
+    .article-cards-grid.cards-cols-2,
+    .article-cards-grid.cards-cols-3 {
+        grid-template-columns: 1fr;
+    }
+
+    .article-card {
+        border-radius: 14px;
+        padding: 0.9rem 0.9rem 0.75rem;
+    }
+
+    .article-card-title {
+        font-size: 0.92rem;
+    }
+
+    .article-card-body {
+        font-size: 0.92rem;
+        line-height: 1.68;
     }
 }

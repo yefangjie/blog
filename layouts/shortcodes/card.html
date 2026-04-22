@@ -1,0 +1,6 @@
+<div class="article-card {{ with .Get "tone" }}card-{{ . }}{{ end }}">
+  {{ with .Get "title" }}<div class="article-card-title">{{ . }}</div>{{ end }}
+  <div class="article-card-body">
+    {{ .Inner | markdownify }}
+  </div>
+</div>
