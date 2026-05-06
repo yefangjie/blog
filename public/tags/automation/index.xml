@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Automation on 技术博客</title>
+    <link>https://yefangjie.de5.net/tags/automation/</link>
+    <description>Recent content in Automation on 技术博客</description>
+    <generator>Hugo -- 0.146.5</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 07 May 2026 05:50:00 +0800</lastBuildDate>
+    <atom:link href="https://yefangjie.de5.net/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude 正在变成创意中台：Higgsfield 给出的，不只是 AI 广告，而是一条可规模化的生产线</title>
+      <link>https://yefangjie.de5.net/posts/higgsfield-claude-creative-agency-xn6z5pyyaie/</link>
+      <pubDate>Thu, 07 May 2026 05:50:00 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/higgsfield-claude-creative-agency-xn6z5pyyaie/</guid>
+      <description>&lt;h1 id=&#34;claude-正在变成创意中台higgsfield-给出的不只是-ai-广告而是一条可规模化的生产线&#34;&gt;Claude 正在变成创意中台：Higgsfield 给出的，不只是 AI 广告，而是一条可规模化的生产线&lt;/h1&gt;
+&lt;p&gt;大多数人看到这类视频，第一反应通常是：&lt;/p&gt;
+&lt;p&gt;“AI 又能生成更像广告的视频了。”&lt;/p&gt;
+&lt;p&gt;但我看完这期 &lt;strong&gt;Higgsfield Just Turned Claude Into a Creative Agency&lt;/strong&gt; 的感觉更直接：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;真正的变化不是“生成更强”，而是“创意工作开始被流程化”。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;这期视频表面上是在演示 Higgsfield 和 Claude 的组合拳：做产品图、做 Instagram 广告、做 UGC 视频、做 launch video、做 Hypermotion 风格素材。&lt;/p&gt;
+&lt;p&gt;可如果只把它理解成一个更强的创意 demo，那就有点看浅了。&lt;/p&gt;
+&lt;p&gt;它真正展示的是一套越来越清晰的 AI 创意生产范式：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Claude 负责研究、分析、拆解和编排&lt;/li&gt;
+&lt;li&gt;Higgsfield 负责图片和视频生成&lt;/li&gt;
+&lt;li&gt;skill 负责复用 winning workflow&lt;/li&gt;
+&lt;li&gt;routine 负责定时批量执行&lt;/li&gt;
+&lt;li&gt;Google Sheet 负责把 prompt、资产、状态、结果组织起来&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这已经不是“做一条广告”，而是在搭一间 AI 创意工厂。&lt;/p&gt;
+&lt;h2 id=&#34;一claude-的价值不只是写-prompt而是成为创意总控台&#34;&gt;一、Claude 的价值，不只是写 prompt，而是成为创意总控台&lt;/h2&gt;
+&lt;p&gt;视频开头最吸引眼球的是几段几分钟内做出来的广告视频。&lt;/p&gt;
+&lt;p&gt;这当然很能打，但真正值得注意的，是背后的控制方式。&lt;/p&gt;
+&lt;p&gt;作者不是在各个工具之间手动跳转，不是先做调研，再切去文档写策略，再切去图片工具生成，再切去视频工具修 prompt。&lt;/p&gt;
+&lt;p&gt;而是把整个流程尽量收拢进 Claude：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;让 Claude 先做品牌和市场研究&lt;/li&gt;
+&lt;li&gt;让 Claude 产出品牌定位、产品线和视觉方向&lt;/li&gt;
+&lt;li&gt;让 Claude 通过 Higgsfield MCP/CLI 调用生成能力&lt;/li&gt;
+&lt;li&gt;让 Claude 根据失败结果继续调整 prompt 和方向&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这一步的意义非常大。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

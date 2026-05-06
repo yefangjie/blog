@@ -2,17 +2,370 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>技术博客</title>
-    <link>https://yefangjie.github.io/blog/</link>
+    <link>https://yefangjie.de5.net/</link>
     <description>Recent content on 技术博客</description>
     <generator>Hugo -- 0.146.5</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 23 Mar 2026 09:00:00 +0800</lastBuildDate>
-    <atom:link href="https://yefangjie.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 May 2026 05:50:00 +0800</lastBuildDate>
+    <atom:link href="https://yefangjie.de5.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude 正在变成创意中台：Higgsfield 给出的，不只是 AI 广告，而是一条可规模化的生产线</title>
+      <link>https://yefangjie.de5.net/posts/higgsfield-claude-creative-agency-xn6z5pyyaie/</link>
+      <pubDate>Thu, 07 May 2026 05:50:00 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/higgsfield-claude-creative-agency-xn6z5pyyaie/</guid>
+      <description>&lt;h1 id=&#34;claude-正在变成创意中台higgsfield-给出的不只是-ai-广告而是一条可规模化的生产线&#34;&gt;Claude 正在变成创意中台：Higgsfield 给出的，不只是 AI 广告，而是一条可规模化的生产线&lt;/h1&gt;
+&lt;p&gt;大多数人看到这类视频，第一反应通常是：&lt;/p&gt;
+&lt;p&gt;“AI 又能生成更像广告的视频了。”&lt;/p&gt;
+&lt;p&gt;但我看完这期 &lt;strong&gt;Higgsfield Just Turned Claude Into a Creative Agency&lt;/strong&gt; 的感觉更直接：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;真正的变化不是“生成更强”，而是“创意工作开始被流程化”。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;这期视频表面上是在演示 Higgsfield 和 Claude 的组合拳：做产品图、做 Instagram 广告、做 UGC 视频、做 launch video、做 Hypermotion 风格素材。&lt;/p&gt;
+&lt;p&gt;可如果只把它理解成一个更强的创意 demo，那就有点看浅了。&lt;/p&gt;
+&lt;p&gt;它真正展示的是一套越来越清晰的 AI 创意生产范式：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Claude 负责研究、分析、拆解和编排&lt;/li&gt;
+&lt;li&gt;Higgsfield 负责图片和视频生成&lt;/li&gt;
+&lt;li&gt;skill 负责复用 winning workflow&lt;/li&gt;
+&lt;li&gt;routine 负责定时批量执行&lt;/li&gt;
+&lt;li&gt;Google Sheet 负责把 prompt、资产、状态、结果组织起来&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这已经不是“做一条广告”，而是在搭一间 AI 创意工厂。&lt;/p&gt;
+&lt;h2 id=&#34;一claude-的价值不只是写-prompt而是成为创意总控台&#34;&gt;一、Claude 的价值，不只是写 prompt，而是成为创意总控台&lt;/h2&gt;
+&lt;p&gt;视频开头最吸引眼球的是几段几分钟内做出来的广告视频。&lt;/p&gt;
+&lt;p&gt;这当然很能打，但真正值得注意的，是背后的控制方式。&lt;/p&gt;
+&lt;p&gt;作者不是在各个工具之间手动跳转，不是先做调研，再切去文档写策略，再切去图片工具生成，再切去视频工具修 prompt。&lt;/p&gt;
+&lt;p&gt;而是把整个流程尽量收拢进 Claude：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;让 Claude 先做品牌和市场研究&lt;/li&gt;
+&lt;li&gt;让 Claude 产出品牌定位、产品线和视觉方向&lt;/li&gt;
+&lt;li&gt;让 Claude 通过 Higgsfield MCP/CLI 调用生成能力&lt;/li&gt;
+&lt;li&gt;让 Claude 根据失败结果继续调整 prompt 和方向&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这一步的意义非常大。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>All-In Podcast 这一期最值得看的，不是八卦，而是 AI 竞争开始从模型秀场转向工作流之争</title>
+      <link>https://yefangjie.de5.net/posts/all-in-openai-codex-claude-workflow-competition-fpc4sbawszq/</link>
+      <pubDate>Wed, 06 May 2026 23:35:00 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/all-in-openai-codex-claude-workflow-competition-fpc4sbawszq/</guid>
+      <description>&lt;p&gt;这期 &lt;strong&gt;All-In Podcast&lt;/strong&gt; 表面上聊得很散：OpenAI targets、Codex vs Claude、Elon vs Sam、科技巨头财报、AI coding 事故、peptides。&lt;/p&gt;
+&lt;p&gt;但如果把其中最关键的 AI 片段拎出来看，会得到一个比“谁家模型更强”更重要的判断：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;AI 的竞争，正在从模型演示，转向工作流嵌入、分发能力和基础设施兑现。&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;这才是我觉得这期最值得关注的地方。&lt;/p&gt;
+&lt;h2 id=&#34;一openai-misses-targets市场开始要求兑现而不只是声量&#34;&gt;一、OpenAI misses targets：市场开始要求兑现，而不只是声量&lt;/h2&gt;
+&lt;p&gt;OpenAI 依然是 AI 里最强的品牌之一，这点没变。&lt;/p&gt;
+&lt;p&gt;但“misses targets” 这类讨论真正重要的，不是 drama，而是市场评价逻辑正在变得更现实。&lt;/p&gt;
+&lt;p&gt;早期阶段，大家会盯着：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;模型是不是最聪明&lt;/li&gt;
+&lt;li&gt;demo 是不是最惊艳&lt;/li&gt;
+&lt;li&gt;叙事是不是最会打&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;但当行业进入更深的商业化阶段，问题会迅速变成：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用量有没有兑现&lt;/li&gt;
+&lt;li&gt;企业采用是否持续&lt;/li&gt;
+&lt;li&gt;产品有没有真正进入日常流程&lt;/li&gt;
+&lt;li&gt;增长是不是有质量&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这意味着，AI 公司正在从“制造想象”进入“证明运营能力”的阶段。&lt;/p&gt;
+&lt;h2 id=&#34;二codex-vs-claude这不是单纯的模型对比而是-workflow-battle&#34;&gt;二、Codex vs Claude：这不是单纯的模型对比，而是 workflow battle&lt;/h2&gt;
+&lt;p&gt;节目里关于 Codex 和 Claude 的比较，我最在意的不是模型谁更强，而是开发者工作流入口这件事。&lt;/p&gt;
+&lt;p&gt;coding 产品最后比的，往往不是一次性惊艳，而是长期嵌入：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;是否出现在开发者每天都会经过的环节里&lt;/li&gt;
+&lt;li&gt;是否持续减少摩擦&lt;/li&gt;
+&lt;li&gt;是否稳定到能被真实团队依赖&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;所以它本质上越来越像平台竞争：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;比集成位置&lt;/li&gt;
+&lt;li&gt;比 adoption friction&lt;/li&gt;
+&lt;li&gt;比团队迁移成本&lt;/li&gt;
+&lt;li&gt;比 workflow lock-in&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;谁能占住工作流，谁才更可能把模型能力转成长期商业结果。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;三hyperscaler-capex-还在爆这轮基础设施争夺远没结束&#34;&gt;三、hyperscaler capex 还在爆：这轮基础设施争夺远没结束&lt;/h2&gt;
+&lt;p&gt;节目里关于大厂财报和资本开支的讨论，同样很值得看。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Anthropic Mythos 是安全预警，还是高明营销？All-In Podcast 这场辩论值得看</title>
+      <link>https://yefangjie.de5.net/posts/anthropic-mythos-all-in-podcast-dvbjqqcjgxu/</link>
+      <pubDate>Wed, 22 Apr 2026 13:52:00 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/anthropic-mythos-all-in-podcast-dvbjqqcjgxu/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Anthropic Mythos cover&#34; loading=&#34;lazy&#34; src=&#34;https://yefangjie.de5.net/images/posts/mythos-allin-cover.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图：这篇文章讨论的不是普通聊天机器人能力，而是 AI 开始逼近网络攻防基础设施层的风险。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;这期 &lt;strong&gt;All-In Podcast&lt;/strong&gt; 聊的是一个很有意思、也很容易被讲歪的话题：&lt;strong&gt;Anthropic 为什么不公开发布 Mythos 模型？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;表面上看，这是一次关于 AI 安全的讨论；但往深里看，这其实是一场关于 &lt;strong&gt;技术真实风险、公司叙事能力、政策协调，以及 AI 网络攻防未来&lt;/strong&gt; 的交叉辩论。&lt;/p&gt;
+&lt;p&gt;我看完后的判断很直接：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;这件事既不是纯营销，也不是纯道德秀。它更像是一个真实风险，被一家特别会讲故事的公司，用了最会制造注意力的方式讲出来。&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;先说结论&#34;&gt;先说结论&lt;/h2&gt;
+&lt;div class=&#34;article-cards-grid cards-cols-2&#34;&gt;
+  
+&lt;div class=&#34;article-card card-primary&#34;&gt;
+  &lt;div class=&#34;article-card-title&#34;&gt;核心判断&lt;/div&gt;
+  &lt;div class=&#34;article-card-body&#34;&gt;
+    &lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mythos 这类模型的风险大概率是真的&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;这一次的威胁，逻辑上比过去那些“黑箱黑邮件”类故事更扎实&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;未来 6 到 12 个月，AI for cyber offense / defense 的军备竞赛会明显加速&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;article-card card-muted&#34;&gt;
+  &lt;div class=&#34;article-card-title&#34;&gt;真正该盯的重点&lt;/div&gt;
+  &lt;div class=&#34;article-card-body&#34;&gt;
+    &lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;真正重要的问题不是 Mythos 会不会公开&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;而是谁先用 AI 把旧互联网的陈年漏洞扫一遍&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;现实世界的攻击面，可能正在被重新定价&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;p&gt;Anthropic 过去确实有“边发产品边制造风险叙事”的惯性，但这次不能只当 drama 看。问题已经不是品牌战，而是网络攻防的现实门槛可能被整体改写。&lt;/p&gt;
+&lt;h2 id=&#34;为什么这篇值得看&#34;&gt;为什么这篇值得看&lt;/h2&gt;
+&lt;p&gt;和常见的 AI 新闻不同，这期内容不只是“某家公司又发了一个厉害模型”，而是在追问三个更硬的问题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AI coding 能力变强，是否必然外溢到网络攻击能力？&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;前沿模型公司是在认真做安全治理，还是也在借安全叙事做市场教育？&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;如果旧互联网的漏洞会被 AI 重新批量挖一遍，谁来抢那段防守窗口期？&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果你关心的不只是模型跑分，而是 AI 真正如何影响现实系统，那这篇比大多数“模型测评文”更值得读。&lt;/p&gt;
+&lt;h2 id=&#34;mythos-为什么跟一般模型不一样&#34;&gt;Mythos 为什么跟一般模型不一样？&lt;/h2&gt;
+&lt;p&gt;先把一句话说透：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Mythos 讨论的不是“更聪明的聊天能力”，而是“更强的系统弱点发现能力”。&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Anthropic 的 Mythos 模型为何让人不安：从聊天机器人焦虑，走向基础设施安全焦虑</title>
+      <link>https://yefangjie.de5.net/posts/anthropic-mythos-cybersecurity-concerns-jkyefjcyb-m/</link>
+      <pubDate>Wed, 22 Apr 2026 13:45:00 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/anthropic-mythos-cybersecurity-concerns-jkyefjcyb-m/</guid>
+      <description>&lt;h1 id=&#34;cybersecurity-concerns-over-anthropics-mythos-model--anthropic-的-mythos-模型为何让人不安&#34;&gt;Cybersecurity Concerns Over Anthropic&amp;rsquo;s Mythos Model | Anthropic 的 Mythos 模型为何让人不安&lt;/h1&gt;
+&lt;h2 id=&#34;视频信息--video-info&#34;&gt;视频信息 | Video Info&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Title | 标题&lt;/strong&gt;: Cybersecurity Concerns Over Anthropic&amp;rsquo;s Mythos Model&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link | 链接&lt;/strong&gt;: &lt;a href=&#34;https://youtu.be/JKyefjCYB-M&#34;&gt;https://youtu.be/JKyefjCYB-M&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Source | 来源&lt;/strong&gt;: Brian Lehrer Show (WNYC), guest: Miranda Nazzaro from &lt;em&gt;The Hill&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Format | 形式&lt;/strong&gt;: Bilingual blog rewrite based on video discussion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;executive-summary--核心摘要&#34;&gt;Executive Summary | 核心摘要&lt;/h2&gt;
+&lt;h3 id=&#34;english&#34;&gt;English&lt;/h3&gt;
+&lt;p&gt;Every few days, AI makes headlines for another familiar reason: job disruption, productivity gains, or model rivalry. But the Mythos story feels different. According to the interview, Anthropic chose not to publicly release a new AI system called Mythos Preview because of cybersecurity concerns. That alone is unusual. More unusual is the framing: this was not presented as a speculative future risk, but as a capability serious enough to reshape how governments, banks, and security teams think about defense.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>从 Prompt Engineering 到 Agent Engineering：想把 AI Agent 做进生产环境，你至少得补齐这 7 个能力</title>
+      <link>https://yefangjie.de5.net/posts/agent-engineering-seven-skills-mtiok2qg9q0/</link>
+      <pubDate>Tue, 21 Apr 2026 15:20:00 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/agent-engineering-seven-skills-mtiok2qg9q0/</guid>
+      <description>&lt;p&gt;上周我看到一个招聘启事，差点笑出声。&lt;/p&gt;
+&lt;p&gt;它写着：招聘一名 &lt;strong&gt;Prompt Engineer&lt;/strong&gt;，要求具备 &lt;strong&gt;分布式系统、API 设计、机器学习运维、安全工程和产品管理&lt;/strong&gt; 经验。&lt;/p&gt;
+&lt;p&gt;说实话，这根本不是在招提示词工程师，这像是在招 &lt;strong&gt;五个人&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;但仔细想想，这个 JD 本身也不算错。错的不是要求太多，而是这个岗位名字起错了。&lt;/p&gt;
+&lt;p&gt;因为当你真正开始构建一个能在现实世界里执行任务、调用工具、访问数据、做出决策的 AI Agent 时，你会很快发现：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;问题早就不是“提示词怎么写得更漂亮”，而是“系统怎么设计得足够可靠”。&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;这也是这支视频最核心的判断：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Prompt Engineering 只是起点，Agent Engineering 才是把 AI 做进生产环境的真本事。&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;作者把这件事拆成了 7 个关键能力。我看完以后觉得，这个框架非常适合拿来给所有想做 AI Agent 的人校正预期。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;一prompt-工程像菜谱agent-工程像当主厨&#34;&gt;一、Prompt 工程像菜谱，Agent 工程像当主厨&lt;/h2&gt;
+&lt;p&gt;视频里用了一个很妙的比喻。&lt;/p&gt;
+&lt;p&gt;一个厨师不是只会照着菜谱做饭。任何人都可以照步骤把菜做出来，但真正的厨师理解的是：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;食材&lt;/li&gt;
+&lt;li&gt;火候&lt;/li&gt;
+&lt;li&gt;节奏&lt;/li&gt;
+&lt;li&gt;厨房协作&lt;/li&gt;
+&lt;li&gt;食品安全&lt;/li&gt;
+&lt;li&gt;出错时怎么即兴补救&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;菜谱只是起点。&lt;/p&gt;
+&lt;p&gt;放在 AI 世界里也一样：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Prompt Engineering&lt;/strong&gt; 像菜谱&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Agent Engineering&lt;/strong&gt; 像当主厨&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果你现在还停留在“我会写几个好 prompt”，那你更接近会照方抓药；如果你想做的是能落地、能执行、能抗故障的系统，那你必须开始学主厨那一套。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;二真正能把-agent-做进生产环境的人至少要补齐这-7-个能力&#34;&gt;二、真正能把 Agent 做进生产环境的人，至少要补齐这 7 个能力&lt;/h2&gt;
+&lt;h3 id=&#34;1-系统设计system-design&#34;&gt;1. 系统设计（System Design）&lt;/h3&gt;
+&lt;p&gt;作者认为，第一能力不是 prompt，而是 &lt;strong&gt;系统设计&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;因为你在做的已经不是“一个会聊天的模型”，而是一整个协作系统：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;LLM 在做决策&lt;/li&gt;
+&lt;li&gt;Tools 在执行动作&lt;/li&gt;
+&lt;li&gt;数据库在存状态&lt;/li&gt;
+&lt;li&gt;可能有多个模型或子 Agent 分工&lt;/li&gt;
+&lt;li&gt;不同模块之间还要协调、回滚、重试&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这本质上就是架构设计问题：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Claude Mythos、Project Glasswing 与 AI 安全现实：IBM Technology 新一期内容解读</title>
+      <link>https://yefangjie.de5.net/posts/claude-mythos-project-glasswing-ai-security-dgnhbf-ktku/</link>
+      <pubDate>Fri, 10 Apr 2026 19:33:00 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/claude-mythos-project-glasswing-ai-security-dgnhbf-ktku/</guid>
+      <description>&lt;p&gt;这期 &lt;strong&gt;Mixture of Experts&lt;/strong&gt; 信息量很大，但核心其实很清楚：&lt;strong&gt;AI 行业已经从“模型能力竞赛”进入“能力、成本与安全三线拉扯”的阶段。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;视频主要讨论了四个主题：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Anthropic Project Glasswing 与 Mythos 模型不发布的原因&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OpenAI 与 Anthropic 财务数据暴露出的路线分化&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GPT-1900 实验：AI 能否重新发现科学突破？&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Masters Vault：用自然语言搜索 58 年高尔夫赛事影像&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;我看完后的判断很直接：&lt;strong&gt;最值得关注的并不是某个模型又强了多少，而是 AI 系统一旦接入工具、代码和企业流程之后，安全边界、推理成本和真实业务价值会同时变成一场硬仗。&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;一project-glasswing--mythos不发布本身就是一个安全信号&#34;&gt;一、Project Glasswing / Mythos：不发布，本身就是一个安全信号&lt;/h2&gt;
+&lt;p&gt;视频开头讨论了 Anthropic 的 &lt;strong&gt;Project Glasswing&lt;/strong&gt;，以及为什么 &lt;strong&gt;Mythos&lt;/strong&gt; 这样的模型不会轻易对外发布。&lt;/p&gt;
+&lt;p&gt;这背后传递的信息非常现实：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;不是“做得出来”就一定要发布&lt;/li&gt;
+&lt;li&gt;工具能力越强，滥用空间也越大&lt;/li&gt;
+&lt;li&gt;一切能被用于“好事”的能力，也几乎一定能被别人用于“坏事”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这不是保守，而是成熟。很多人对 AI 的想象还停留在“模型越开放越先进”，但对企业和安全团队来说，问题从来不是“能不能做”，而是：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;谁能调用？&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;调用后能接触什么？&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;一旦被提示注入或供应链污染，会造成多大损失？&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果一个模型已经具备较强的代理式能力、工具调用能力，甚至能操作代码、流程和外部系统，那么它面对的就不再只是“模型评测榜单”，而是完整的攻击面。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;我的看法：Anthropic 不把某些能力直接放出去，不是怂，是知道这玩意儿一旦放开，后果不止是 demo 跑飞，而是安全研究成本骤降、攻击者学习曲线被抹平。&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;二ai-安全的麻烦不在某一家而在整个-agentic-ai-结构&#34;&gt;二、AI 安全的麻烦，不在某一家，而在整个 Agentic AI 结构&lt;/h2&gt;
+&lt;p&gt;视频里一个很关键的观点是：某些泄露或攻击事件并不只是某个产品自己的问题，而是整个 &lt;strong&gt;Agentic AI&lt;/strong&gt; 生态的系统性脆弱性暴露。&lt;/p&gt;
+&lt;p&gt;原因很简单。今天很多 AI 系统都在共享类似结构：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;prompt / context compaction pipeline&lt;/li&gt;
+&lt;li&gt;权限链条&lt;/li&gt;
+&lt;li&gt;MCP 或类似工具接口&lt;/li&gt;
+&lt;li&gt;外部仓库、外部服务、外部插件&lt;/li&gt;
+&lt;li&gt;自动化执行能力&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这些东西单看都合理，叠在一起就变成了一个很大的风险放大器。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>编程的终结：Andrej Karpathy 谈 AI Agent 与软件开发的未来</title>
+      <link>https://yefangjie.de5.net/posts/andrej-karpathy-end-of-coding-kwsvtq7dziu/</link>
+      <pubDate>Wed, 25 Mar 2026 06:52:00 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/andrej-karpathy-end-of-coding-kwsvtq7dziu/</guid>
+      <description>&lt;h2 id=&#34;概述&#34;&gt;概述&lt;/h2&gt;
+&lt;p&gt;本期来自 No Priors Podcast 的视频中，前 Tesla AI 总监、OpenAI 创始成员 &lt;strong&gt;Andrej Karpathy&lt;/strong&gt; 分享了他对编程未来的深刻见解。他认为传统意义上的&amp;quot;编程&amp;quot;正在终结，取而代之的是与 AI Agent 协作的新时代。&lt;/p&gt;
+&lt;h2 id=&#34;核心观点&#34;&gt;核心观点&lt;/h2&gt;
+&lt;h3 id=&#34;1-传统编程的终结&#34;&gt;1. 传统编程的终结&lt;/h3&gt;
+&lt;p&gt;Karpathy 认为&amp;quot;编程&amp;quot;(coding)已不再是正确的动词。开发者的工作方式发生了根本转变：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;过去&lt;/strong&gt;：逐行编写代码，计算机执行&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;现在&lt;/strong&gt;：向 AI Agent 表达意图，AI 编写并执行代码&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;未来&lt;/strong&gt;：管理和编排多个 AI Agent 协作&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;代码甚至不再是正确的动词了&amp;rdquo; — Andrej Karpathy&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;2-ai-agent-范式转变&#34;&gt;2. AI Agent 范式转变&lt;/h3&gt;
+&lt;p&gt;对话强调了一个根本性转变。传统模式中，人类写代码、计算机执行。而在新范式下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;人类描述意图和目标&lt;/li&gt;
+&lt;li&gt;AI Agent 理解、规划并执行&lt;/li&gt;
+&lt;li&gt;开发者专注于高层问题解决而非实现细节&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-循环时代loopy-era&#34;&gt;3. &amp;ldquo;循环时代&amp;rdquo;(Loopy Era)&lt;/h3&gt;
+&lt;p&gt;Karpathy 将当前阶段描述为&amp;quot;循环时代&amp;quot;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;无限可能性&lt;/strong&gt;：AI Agent 几乎可以完成任何可描述的任务&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;技能问题&lt;/strong&gt;：一切都成为&amp;quot;技能问题&amp;quot;——只要你能描述，AI 就能做到&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;新瓶颈&lt;/strong&gt;：瓶颈从编程能力转移到问题表述和意图传达能力&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4-自动研究与自主-agent&#34;&gt;4. 自动研究与自主 Agent&lt;/h3&gt;
+&lt;p&gt;讨论中提到的关键发展：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AutoResearch&lt;/strong&gt;：能够自主进行研究的 AI Agent&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;自我优化&lt;/strong&gt;：能够优化自身指令和行为的系统&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多 Agent 协作&lt;/strong&gt;：在复杂任务上并行工作的多个 Agent&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;5-对开发者的影响&#34;&gt;5. 对开发者的影响&lt;/h3&gt;
+&lt;p&gt;Karpathy 描绘了开发者角色的演变：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>黄金大跌背后的真相：地缘政治与市场分析</title>
+      <link>https://yefangjie.de5.net/posts/gold-price-analysis-de8yzjhthyq/</link>
+      <pubDate>Tue, 24 Mar 2026 18:00:00 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/gold-price-analysis-de8yzjhthyq/</guid>
+      <description>&lt;h2 id=&#34;概述&#34;&gt;概述&lt;/h2&gt;
+&lt;p&gt;本期视频来自 LT視界，分析了近期黄金价格在伊朗冲突背景下反而大跌的反常现象，探讨了市场背后的深层逻辑和投资者应该关注的信号。&lt;/p&gt;
+&lt;h2 id=&#34;反常现象战争期间黄金下跌&#34;&gt;反常现象：战争期间黄金下跌&lt;/h2&gt;
+&lt;h3 id=&#34;正常情况&#34;&gt;正常情况&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;黄金 traditionally 是&amp;quot;避险资产&amp;quot;&lt;/li&gt;
+&lt;li&gt;地缘政治紧张时，黄金价格通常上涨&lt;/li&gt;
+&lt;li&gt;投资者涌向黄金以对冲不确定性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;实际情况本次冲突&#34;&gt;实际情况（本次冲突）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;黄金价格大幅下跌&lt;/li&gt;
+&lt;li&gt;跌幅历史罕见&lt;/li&gt;
+&lt;li&gt;这种反常行为标志着市场更深层次的变化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;关键分析点&#34;&gt;关键分析点&lt;/h2&gt;
+&lt;h3 id=&#34;1-黄金-股票比率&#34;&gt;1. 黄金-股票比率&lt;/h3&gt;
+&lt;p&gt;分析师威尔逊观察了标普500指数与黄金价格的比率：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;股市从历史高点下跌6.8%&lt;/li&gt;
+&lt;li&gt;黄金跌得比股票更快&lt;/li&gt;
+&lt;li&gt;比率反而显著上升&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-市场现实-vs-认知&#34;&gt;2. 市场现实 vs 认知&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;表面异常现象常让投资者困惑&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;奇怪现象&amp;quot;有深层原因&lt;/li&gt;
+&lt;li&gt;理解需要看到已经发生的背后事件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-长期相关性&#34;&gt;3. 长期相关性&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;黄金通常与地缘政治紧张正相关&lt;/li&gt;
+&lt;li&gt;市场焦虑通常推高黄金价格&lt;/li&gt;
+&lt;li&gt;这次反向运动可能表明风险评估正在转变&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;投资启示&#34;&gt;投资启示&lt;/h2&gt;
+&lt;h3 id=&#34;对股市是积极信号&#34;&gt;对股市是积极信号？&lt;/h3&gt;
+&lt;p&gt;威尔逊认为这可能是股市的积极信号：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;如果黄金-股票比率在市场下跌时上升&lt;/li&gt;
+&lt;li&gt;可能表明市场对风险因素的定价不同&lt;/li&gt;
+&lt;li&gt;传统避险动态可能正在改变&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;关注要点&#34;&gt;关注要点&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;持续监测黄金-股票比率&lt;/li&gt;
+&lt;li&gt;地缘政治发展及其实际市场影响&lt;/li&gt;
+&lt;li&gt;投资者情绪和风险偏好变化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;结论&#34;&gt;结论&lt;/h2&gt;
+&lt;p&gt;黄金在冲突期间的反常行为不是随机的——它反映了许多投资者看不到的深层市场现实。理解这些根本转变对做出明智的投资决策至关重要。&lt;/p&gt;
+&lt;h2 id=&#34;资源&#34;&gt;资源&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;完整分析&lt;/strong&gt;: &lt;a href=&#34;https://github.com/yefangjie/video-gold-dE8yZJHThYQ&#34;&gt;https://github.com/yefangjie/video-gold-dE8yZJHThYQ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;原视频&lt;/strong&gt;: LT視界&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;日期&lt;/strong&gt;: 2026年3月23日&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>NVIDIA NemoClaw, OpenAI&#39;s Pivot and Shopify Agents</title>
-      <link>https://yefangjie.github.io/blog/posts/nvidia-nemoclaw-ce-p69dv1jw/</link>
+      <link>https://yefangjie.de5.net/posts/nvidia-nemoclaw-ce-p69dv1jw/</link>
       <pubDate>Mon, 23 Mar 2026 09:00:00 +0800</pubDate>
-      <guid>https://yefangjie.github.io/blog/posts/nvidia-nemoclaw-ce-p69dv1jw/</guid>
+      <guid>https://yefangjie.de5.net/posts/nvidia-nemoclaw-ce-p69dv1jw/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Major developments in the AI agent ecosystem: NVIDIA&amp;rsquo;s NemoClaw framework, OpenAI&amp;rsquo;s strategic pivot, and Shopify&amp;rsquo;s approach to AI agents.&lt;/p&gt;
 &lt;h2 id=&#34;nvidia-nemoclaw&#34;&gt;NVIDIA NemoClaw&lt;/h2&gt;
@@ -35,9 +388,9 @@
     </item>
     <item>
       <title>Personal VPNs: Encryption Myths and Data Security Explained</title>
-      <link>https://yefangjie.github.io/blog/posts/personal-vpns-2fctrjmdqyg/</link>
+      <link>https://yefangjie.de5.net/posts/personal-vpns-2fctrjmdqyg/</link>
       <pubDate>Mon, 23 Mar 2026 09:00:00 +0800</pubDate>
-      <guid>https://yefangjie.github.io/blog/posts/personal-vpns-2fctrjmdqyg/</guid>
+      <guid>https://yefangjie.de5.net/posts/personal-vpns-2fctrjmdqyg/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;This IBM Security Intelligence episode demystifies personal VPNs, separating marketing hype from technical reality.&lt;/p&gt;
 &lt;h2 id=&#34;what-vpns-actually-do&#34;&gt;What VPNs Actually Do&lt;/h2&gt;
@@ -61,9 +414,9 @@
     </item>
     <item>
       <title>What is Agentic Security Runtime? Securing AI Agents</title>
-      <link>https://yefangjie.github.io/blog/posts/agentic-security-runtime-nh0plidqdmk/</link>
+      <link>https://yefangjie.de5.net/posts/agentic-security-runtime-nh0plidqdmk/</link>
       <pubDate>Mon, 23 Mar 2026 09:00:00 +0800</pubDate>
-      <guid>https://yefangjie.github.io/blog/posts/agentic-security-runtime-nh0plidqdmk/</guid>
+      <guid>https://yefangjie.de5.net/posts/agentic-security-runtime-nh0plidqdmk/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;This video explores the emerging field of agentic security runtime - a critical new layer of security designed specifically for AI agents that operate autonomously.&lt;/p&gt;
 &lt;h2 id=&#34;what-is-agentic-security-runtime&#34;&gt;What is Agentic Security Runtime?&lt;/h2&gt;
@@ -79,9 +432,9 @@
     </item>
     <item>
       <title>Who&#39;s Accountable for AI Agents?</title>
-      <link>https://yefangjie.github.io/blog/posts/ai-accountability-jfnpczpp6y/</link>
+      <link>https://yefangjie.de5.net/posts/ai-accountability-jfnpczpp6y/</link>
       <pubDate>Mon, 23 Mar 2026 09:00:00 +0800</pubDate>
-      <guid>https://yefangjie.github.io/blog/posts/ai-accountability-jfnpczpp6y/</guid>
+      <guid>https://yefangjie.de5.net/posts/ai-accountability-jfnpczpp6y/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Examining the complex question of accountability in AI agent systems.&lt;/p&gt;
 &lt;h2 id=&#34;the-accountability-problem&#34;&gt;The Accountability Problem&lt;/h2&gt;
@@ -113,9 +466,9 @@
     </item>
     <item>
       <title>Why Did Meta Acquire Moltbook?</title>
-      <link>https://yefangjie.github.io/blog/posts/meta-moltbook-crdiktybre/</link>
+      <link>https://yefangjie.de5.net/posts/meta-moltbook-crdiktybre/</link>
       <pubDate>Mon, 23 Mar 2026 09:00:00 +0800</pubDate>
-      <guid>https://yefangjie.github.io/blog/posts/meta-moltbook-crdiktybre/</guid>
+      <guid>https://yefangjie.de5.net/posts/meta-moltbook-crdiktybre/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Analysis of Meta&amp;rsquo;s strategic acquisition of Moltbook and implications for AI infrastructure.&lt;/p&gt;
 &lt;h2 id=&#34;strategic-rationale&#34;&gt;Strategic Rationale&lt;/h2&gt;
@@ -138,9 +491,9 @@
     </item>
     <item>
       <title>Why IoT Devices Fail: Security Challenges in Connected Hardware</title>
-      <link>https://yefangjie.github.io/blog/posts/why-iot-fails-b8sux6kpeeq/</link>
+      <link>https://yefangjie.de5.net/posts/why-iot-fails-b8sux6kpeeq/</link>
       <pubDate>Mon, 23 Mar 2026 09:00:00 +0800</pubDate>
-      <guid>https://yefangjie.github.io/blog/posts/why-iot-fails-b8sux6kpeeq/</guid>
+      <guid>https://yefangjie.de5.net/posts/why-iot-fails-b8sux6kpeeq/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Persistent security challenges facing IoT devices and why the problem continues.&lt;/p&gt;
 &lt;h2 id=&#34;the-core-problem&#34;&gt;The Core Problem&lt;/h2&gt;
@@ -176,9 +529,9 @@
     </item>
     <item>
       <title>Better Instructions, Better AI Results: The Communication Gap</title>
-      <link>https://yefangjie.github.io/blog/posts/better-instructions-better-ai-results-ajesffzvfay/</link>
+      <link>https://yefangjie.de5.net/posts/better-instructions-better-ai-results-ajesffzvfay/</link>
       <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://yefangjie.github.io/blog/posts/better-instructions-better-ai-results-ajesffzvfay/</guid>
+      <guid>https://yefangjie.de5.net/posts/better-instructions-better-ai-results-ajesffzvfay/</guid>
       <description>&lt;h1 id=&#34;better-instructions-better-ai-results-the-communication-gap&#34;&gt;Better Instructions, Better AI Results: The Communication Gap&lt;/h1&gt;
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This IBM Technology video explores a fundamental shift in how we interact with AI systems - the recognition that clear, precise communication with AI agents requires the same (or greater) level of care as managing human teams.&lt;/p&gt;
@@ -189,9 +542,9 @@
     </item>
     <item>
       <title>Claude Opus 4.6 Security Risks: Open Source vs Proprietary Agents</title>
-      <link>https://yefangjie.github.io/blog/posts/claude-opus-security-risks-l6lex-yc_rm/</link>
+      <link>https://yefangjie.de5.net/posts/claude-opus-security-risks-l6lex-yc_rm/</link>
       <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://yefangjie.github.io/blog/posts/claude-opus-security-risks-l6lex-yc_rm/</guid>
+      <guid>https://yefangjie.de5.net/posts/claude-opus-security-risks-l6lex-yc_rm/</guid>
       <description>&lt;h1 id=&#34;claude-opus-46-security-risks-open-source-vs-proprietary-agents&#34;&gt;Claude Opus 4.6 Security Risks: Open Source vs Proprietary Agents&lt;/h1&gt;
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This IBM Technology segment examines the security implications of Claude Opus 4.6&amp;rsquo;s agent teams feature, with a focus on the trade-offs between open source and proprietary AI agents.&lt;/p&gt;
@@ -202,9 +555,9 @@
     </item>
     <item>
       <title>Guide to Architect Secure AI Agents: Best Practices for Safety</title>
-      <link>https://yefangjie.github.io/blog/posts/guide-architect-secure-ai-agents-umytqhptyva/</link>
+      <link>https://yefangjie.de5.net/posts/guide-architect-secure-ai-agents-umytqhptyva/</link>
       <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://yefangjie.github.io/blog/posts/guide-architect-secure-ai-agents-umytqhptyva/</guid>
+      <guid>https://yefangjie.de5.net/posts/guide-architect-secure-ai-agents-umytqhptyva/</guid>
       <description>&lt;h1 id=&#34;guide-to-architect-secure-ai-agents-best-practices-for-safety&#34;&gt;Guide to Architect Secure AI Agents: Best Practices for Safety&lt;/h1&gt;
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This IBM Technology video provides a comprehensive guide to architecting secure enterprise AI agents, based on a collaboration between IBM and Anthropic. It covers the paradigm shift required when moving from traditional software to AI agents and provides concrete security frameworks.&lt;/p&gt;
@@ -220,9 +573,9 @@
     </item>
     <item>
       <title>India&#39;s $200B AI Hub &amp; Claude Builds C Compiler: IBM Mixture of Experts Analysis</title>
-      <link>https://yefangjie.github.io/blog/posts/india-ai-hub-claude-compiler-3wb6ca4cbiq/</link>
+      <link>https://yefangjie.de5.net/posts/india-ai-hub-claude-compiler-3wb6ca4cbiq/</link>
       <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://yefangjie.github.io/blog/posts/india-ai-hub-claude-compiler-3wb6ca4cbiq/</guid>
+      <guid>https://yefangjie.de5.net/posts/india-ai-hub-claude-compiler-3wb6ca4cbiq/</guid>
       <description>&lt;h1 id=&#34;indias-200b-ai-hub--claude-builds-c-compiler-ibm-mixture-of-experts-analysis&#34;&gt;India&amp;rsquo;s $200B AI Hub &amp;amp; Claude Builds C Compiler: IBM Mixture of Experts Analysis&lt;/h1&gt;
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This episode of IBM&amp;rsquo;s Mixture of Experts podcast, hosted by Matt Kazinski with guests Mihi Crevetti, Martin Keane, and Kush Varsny, covers three major topics in AI: Google&amp;rsquo;s massive AI infrastructure investment in India, Anthropic&amp;rsquo;s Claude building a C compiler using multi-agent systems, and the broader implications for AI ROI and security.&lt;/p&gt;
@@ -232,9 +585,9 @@
     </item>
     <item>
       <title>Opus 4.6 vs GPT-5.3-Codex: AI Coding Model Showdown</title>
-      <link>https://yefangjie.github.io/blog/posts/opus-vs-codex-if9uvjqum38/</link>
+      <link>https://yefangjie.de5.net/posts/opus-vs-codex-if9uvjqum38/</link>
       <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://yefangjie.github.io/blog/posts/opus-vs-codex-if9uvjqum38/</guid>
+      <guid>https://yefangjie.de5.net/posts/opus-vs-codex-if9uvjqum38/</guid>
       <description>&lt;h1 id=&#34;opus-46-vs-gpt-53-codex-ai-coding-model-showdown&#34;&gt;Opus 4.6 vs GPT-5.3-Codex: AI Coding Model Showdown&lt;/h1&gt;
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This IBM Technology segment compares two leading AI coding models: Claude&amp;rsquo;s Opus 4.6 and OpenAI&amp;rsquo;s GPT-5.3-Codex. The speaker shares practical insights from hands-on experience with both systems.&lt;/p&gt;
@@ -245,9 +598,9 @@
     </item>
     <item>
       <title>Understanding AI Agent Security: The Driving Analogy</title>
-      <link>https://yefangjie.github.io/blog/posts/understanding-ai-agent-security-saymskxndf4/</link>
+      <link>https://yefangjie.de5.net/posts/understanding-ai-agent-security-saymskxndf4/</link>
       <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://yefangjie.github.io/blog/posts/understanding-ai-agent-security-saymskxndf4/</guid>
+      <guid>https://yefangjie.de5.net/posts/understanding-ai-agent-security-saymskxndf4/</guid>
       <description>&lt;h1 id=&#34;understanding-ai-agent-security-the-driving-analogy&#34;&gt;Understanding AI Agent Security: The Driving Analogy&lt;/h1&gt;
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This IBM Technology video uses an accessible analogy - comparing AI agents to cars - to explain the complex infrastructure needed to secure and govern autonomous AI systems.&lt;/p&gt;
@@ -258,9 +611,9 @@
     </item>
     <item>
       <title>我的第一篇博客</title>
-      <link>https://yefangjie.github.io/blog/posts/my-first-post/</link>
+      <link>https://yefangjie.de5.net/posts/my-first-post/</link>
       <pubDate>Fri, 06 Mar 2026 12:00:00 +0800</pubDate>
-      <guid>https://yefangjie.github.io/blog/posts/my-first-post/</guid>
+      <guid>https://yefangjie.de5.net/posts/my-first-post/</guid>
       <description>使用 Hugo 和 PaperMod 主题搭建个人博客</description>
     </item>
   </channel>

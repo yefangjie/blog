@@ -2,17 +2,98 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>AI Business on 技术博客</title>
-    <link>https://yefangjie.github.io/blog/categories/ai-business/</link>
+    <link>https://yefangjie.de5.net/categories/ai-business/</link>
     <description>Recent content in AI Business on 技术博客</description>
     <generator>Hugo -- 0.146.5</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 23 Mar 2026 09:00:00 +0800</lastBuildDate>
-    <atom:link href="https://yefangjie.github.io/blog/categories/ai-business/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 May 2026 05:50:00 +0800</lastBuildDate>
+    <atom:link href="https://yefangjie.de5.net/categories/ai-business/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude 正在变成创意中台：Higgsfield 给出的，不只是 AI 广告，而是一条可规模化的生产线</title>
+      <link>https://yefangjie.de5.net/posts/higgsfield-claude-creative-agency-xn6z5pyyaie/</link>
+      <pubDate>Thu, 07 May 2026 05:50:00 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/higgsfield-claude-creative-agency-xn6z5pyyaie/</guid>
+      <description>&lt;h1 id=&#34;claude-正在变成创意中台higgsfield-给出的不只是-ai-广告而是一条可规模化的生产线&#34;&gt;Claude 正在变成创意中台：Higgsfield 给出的，不只是 AI 广告，而是一条可规模化的生产线&lt;/h1&gt;
+&lt;p&gt;大多数人看到这类视频，第一反应通常是：&lt;/p&gt;
+&lt;p&gt;“AI 又能生成更像广告的视频了。”&lt;/p&gt;
+&lt;p&gt;但我看完这期 &lt;strong&gt;Higgsfield Just Turned Claude Into a Creative Agency&lt;/strong&gt; 的感觉更直接：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;真正的变化不是“生成更强”，而是“创意工作开始被流程化”。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;这期视频表面上是在演示 Higgsfield 和 Claude 的组合拳：做产品图、做 Instagram 广告、做 UGC 视频、做 launch video、做 Hypermotion 风格素材。&lt;/p&gt;
+&lt;p&gt;可如果只把它理解成一个更强的创意 demo，那就有点看浅了。&lt;/p&gt;
+&lt;p&gt;它真正展示的是一套越来越清晰的 AI 创意生产范式：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Claude 负责研究、分析、拆解和编排&lt;/li&gt;
+&lt;li&gt;Higgsfield 负责图片和视频生成&lt;/li&gt;
+&lt;li&gt;skill 负责复用 winning workflow&lt;/li&gt;
+&lt;li&gt;routine 负责定时批量执行&lt;/li&gt;
+&lt;li&gt;Google Sheet 负责把 prompt、资产、状态、结果组织起来&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这已经不是“做一条广告”，而是在搭一间 AI 创意工厂。&lt;/p&gt;
+&lt;h2 id=&#34;一claude-的价值不只是写-prompt而是成为创意总控台&#34;&gt;一、Claude 的价值，不只是写 prompt，而是成为创意总控台&lt;/h2&gt;
+&lt;p&gt;视频开头最吸引眼球的是几段几分钟内做出来的广告视频。&lt;/p&gt;
+&lt;p&gt;这当然很能打，但真正值得注意的，是背后的控制方式。&lt;/p&gt;
+&lt;p&gt;作者不是在各个工具之间手动跳转，不是先做调研，再切去文档写策略，再切去图片工具生成，再切去视频工具修 prompt。&lt;/p&gt;
+&lt;p&gt;而是把整个流程尽量收拢进 Claude：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;让 Claude 先做品牌和市场研究&lt;/li&gt;
+&lt;li&gt;让 Claude 产出品牌定位、产品线和视觉方向&lt;/li&gt;
+&lt;li&gt;让 Claude 通过 Higgsfield MCP/CLI 调用生成能力&lt;/li&gt;
+&lt;li&gt;让 Claude 根据失败结果继续调整 prompt 和方向&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这一步的意义非常大。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>All-In Podcast 这一期最值得看的，不是八卦，而是 AI 竞争开始从模型秀场转向工作流之争</title>
+      <link>https://yefangjie.de5.net/posts/all-in-openai-codex-claude-workflow-competition-fpc4sbawszq/</link>
+      <pubDate>Wed, 06 May 2026 23:35:00 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/all-in-openai-codex-claude-workflow-competition-fpc4sbawszq/</guid>
+      <description>&lt;p&gt;这期 &lt;strong&gt;All-In Podcast&lt;/strong&gt; 表面上聊得很散：OpenAI targets、Codex vs Claude、Elon vs Sam、科技巨头财报、AI coding 事故、peptides。&lt;/p&gt;
+&lt;p&gt;但如果把其中最关键的 AI 片段拎出来看，会得到一个比“谁家模型更强”更重要的判断：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;AI 的竞争，正在从模型演示，转向工作流嵌入、分发能力和基础设施兑现。&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;这才是我觉得这期最值得关注的地方。&lt;/p&gt;
+&lt;h2 id=&#34;一openai-misses-targets市场开始要求兑现而不只是声量&#34;&gt;一、OpenAI misses targets：市场开始要求兑现，而不只是声量&lt;/h2&gt;
+&lt;p&gt;OpenAI 依然是 AI 里最强的品牌之一，这点没变。&lt;/p&gt;
+&lt;p&gt;但“misses targets” 这类讨论真正重要的，不是 drama，而是市场评价逻辑正在变得更现实。&lt;/p&gt;
+&lt;p&gt;早期阶段，大家会盯着：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;模型是不是最聪明&lt;/li&gt;
+&lt;li&gt;demo 是不是最惊艳&lt;/li&gt;
+&lt;li&gt;叙事是不是最会打&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;但当行业进入更深的商业化阶段，问题会迅速变成：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用量有没有兑现&lt;/li&gt;
+&lt;li&gt;企业采用是否持续&lt;/li&gt;
+&lt;li&gt;产品有没有真正进入日常流程&lt;/li&gt;
+&lt;li&gt;增长是不是有质量&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这意味着，AI 公司正在从“制造想象”进入“证明运营能力”的阶段。&lt;/p&gt;
+&lt;h2 id=&#34;二codex-vs-claude这不是单纯的模型对比而是-workflow-battle&#34;&gt;二、Codex vs Claude：这不是单纯的模型对比，而是 workflow battle&lt;/h2&gt;
+&lt;p&gt;节目里关于 Codex 和 Claude 的比较，我最在意的不是模型谁更强，而是开发者工作流入口这件事。&lt;/p&gt;
+&lt;p&gt;coding 产品最后比的，往往不是一次性惊艳，而是长期嵌入：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;是否出现在开发者每天都会经过的环节里&lt;/li&gt;
+&lt;li&gt;是否持续减少摩擦&lt;/li&gt;
+&lt;li&gt;是否稳定到能被真实团队依赖&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;所以它本质上越来越像平台竞争：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;比集成位置&lt;/li&gt;
+&lt;li&gt;比 adoption friction&lt;/li&gt;
+&lt;li&gt;比团队迁移成本&lt;/li&gt;
+&lt;li&gt;比 workflow lock-in&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;谁能占住工作流，谁才更可能把模型能力转成长期商业结果。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;三hyperscaler-capex-还在爆这轮基础设施争夺远没结束&#34;&gt;三、hyperscaler capex 还在爆：这轮基础设施争夺远没结束&lt;/h2&gt;
+&lt;p&gt;节目里关于大厂财报和资本开支的讨论，同样很值得看。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Why Did Meta Acquire Moltbook?</title>
-      <link>https://yefangjie.github.io/blog/posts/meta-moltbook-crdiktybre/</link>
+      <link>https://yefangjie.de5.net/posts/meta-moltbook-crdiktybre/</link>
       <pubDate>Mon, 23 Mar 2026 09:00:00 +0800</pubDate>
-      <guid>https://yefangjie.github.io/blog/posts/meta-moltbook-crdiktybre/</guid>
+      <guid>https://yefangjie.de5.net/posts/meta-moltbook-crdiktybre/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Analysis of Meta&amp;rsquo;s strategic acquisition of Moltbook and implications for AI infrastructure.&lt;/p&gt;
 &lt;h2 id=&#34;strategic-rationale&#34;&gt;Strategic Rationale&lt;/h2&gt;
