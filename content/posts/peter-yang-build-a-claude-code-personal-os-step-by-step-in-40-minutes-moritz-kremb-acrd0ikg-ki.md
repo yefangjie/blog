@@ -2,7 +2,7 @@
 title: "Peter Yang 频道 这期最值得记住的，不是八卦，而是 AI 竞争逻辑正在变化"
 seo_title: "Peter Yang 频道 这期最值得记住的，不是八卦，而是 AI 竞争逻辑正在变化｜上下文工程解读"
 description: "解读 Peter Yang 频道 这期约 42 分钟的视频，聚焦 上下文工程，核心涉及 AI、AI Agent。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。"
-date: 2026-05-11T06:43:05.885903+08:00
+date: 2026-05-11T08:01:47.221323+08:00
 draft: false
 tags: ["YouTube", "Peter Yang 频道", "上下文工程", "AI", "AI Agent"]
 categories: ["AI 工程"]
