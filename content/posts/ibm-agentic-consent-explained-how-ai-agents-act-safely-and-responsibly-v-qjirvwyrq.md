@@ -2,7 +2,7 @@
 title: "IBM 科技频道：这期内容里，真正值得留下来的是什么？"
 seo_title: "IBM 科技频道：这期内容里，真正值得留下来的是什么？｜上下文工程解读"
 description: "解读 IBM 科技频道 这期约 14 分钟的视频，聚焦 上下文工程，核心涉及 AI、AI Agent、AI Agents。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。"
-date: 2026-05-11T08:00:49.209634+08:00
+date: 2026-05-11T08:02:25.204490+08:00
 draft: false
 tags: ["YouTube", "IBM 科技频道", "上下文工程", "AI", "AI Agent", "AI Agents"]
 categories: ["AI 工程"]
