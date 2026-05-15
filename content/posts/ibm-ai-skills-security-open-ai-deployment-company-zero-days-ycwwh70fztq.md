@@ -2,7 +2,7 @@
 title: "IBM 科技频道 这期最值得看的，不是新闻，而是 AI 安全正在进入运行时阶段"
 seo_title: "IBM 科技频道 这期最值得看的，不是新闻，而是 AI 安全正在进入运行时阶段｜AI Agent解读"
 description: "解读 IBM 科技频道 这期约 39 分钟的视频，聚焦 AI Agent，核心涉及 AI、AI Agent、AI Agents、AI 安全。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。"
-date: 2026-05-15T19:33:15.614851+08:00
+date: 2026-05-15T20:02:41.824739+08:00
 draft: false
 tags: ["YouTube", "IBM 科技频道", "AI Agent", "AI", "AI Agents", "AI 安全"]
 categories: ["AI 安全"]
