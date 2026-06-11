@@ -2,7 +2,7 @@
 title: "Peter Yang 频道：这期内容里，真正值得留下来的是什么？"
 seo_title: "Peter Yang 频道：这期内容里，真正值得留下来的是什么？｜上下文工程解读"
 description: "解读 Peter Yang 频道 这期约 15 分钟的视频，聚焦 上下文工程，核心涉及 AI、产品。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。"
-date: 2026-06-11T19:39:10.688397+08:00
+date: 2026-06-11T19:45:10.344111+08:00
 draft: false
 tags: ["YouTube", "Peter Yang 频道", "上下文工程", "AI", "产品"]
 categories: ["AI 产品"]
