@@ -2,7 +2,7 @@
 title: "IBM 科技频道：这条内容为什么值得从一条视频，沉淀成一篇正式文章"
 seo_title: "IBM 科技频道：这条内容为什么值得从一条视频，沉淀成一篇正式文章｜AI Agent解读"
 description: "解读 IBM 科技频道 这期约 39 分钟的视频，聚焦 AI Agent，核心涉及 AI、AI Agent、AI Agents。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。"
-date: 2026-06-20T11:15:20.390820+08:00
+date: 2026-06-20T11:17:46.516437+08:00
 draft: false
 tags: ["YouTube", "IBM 科技频道", "AI Agent", "AI", "AI Agents"]
 categories: ["AI 工程"]
