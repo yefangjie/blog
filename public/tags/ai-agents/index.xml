@@ -2,17 +2,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>AI Agents on 技术博客</title>
-    <link>https://yefangjie.github.io/blog/tags/ai-agents/</link>
+    <link>https://yefangjie.de5.net/tags/ai-agents/</link>
     <description>Recent content in AI Agents on 技术博客</description>
     <generator>Hugo -- 0.146.5</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 23 Mar 2026 09:00:00 +0800</lastBuildDate>
-    <atom:link href="https://yefangjie.github.io/blog/tags/ai-agents/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Jun 2026 11:19:04 +0800</lastBuildDate>
+    <atom:link href="https://yefangjie.de5.net/tags/ai-agents/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SaaStr AI 频道：这条内容为什么值得从一条视频，沉淀成一篇正式文章</title>
+      <link>https://yefangjie.de5.net/posts/saastr-ai-the-dashboard-is-dead-what-snowflake-s-cmo-does-instead-swfetawe2xu/</link>
+      <pubDate>Sat, 20 Jun 2026 11:19:04 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/saastr-ai-the-dashboard-is-dead-what-snowflake-s-cmo-does-instead-swfetawe2xu/</guid>
+      <description>解读 SaaStr AI 频道 这期约 49 分钟的视频，聚焦 AI Agent，核心涉及 AI、AI Agent、AI Agents、GTM、RAG。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。</description>
+    </item>
+    <item>
+      <title>IBM 科技频道：这条内容为什么值得从一条视频，沉淀成一篇正式文章</title>
+      <link>https://yefangjie.de5.net/posts/ibm-microsoft-s-new-ai-models-bots-dominate-the-internet-svbhexuky8s/</link>
+      <pubDate>Sat, 20 Jun 2026 11:17:46 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/ibm-microsoft-s-new-ai-models-bots-dominate-the-internet-svbhexuky8s/</guid>
+      <description>解读 IBM 科技频道 这期约 39 分钟的视频，聚焦 AI Agent，核心涉及 AI、AI Agent、AI Agents。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。</description>
+    </item>
+    <item>
+      <title>IBM 科技频道：这期内容里，真正值得留下来的是什么？</title>
+      <link>https://yefangjie.de5.net/posts/ibm-bridging-design-systems-and-code-with-mcp-and-ai-agents-gh1e9vgxzws/</link>
+      <pubDate>Sun, 14 Jun 2026 20:24:58 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/ibm-bridging-design-systems-and-code-with-mcp-and-ai-agents-gh1e9vgxzws/</guid>
+      <description>解读 IBM 科技频道 这期约 0 分钟的视频，聚焦 上下文工程，核心涉及 AI、AI Agent、AI Agents、上下文工程。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。</description>
+    </item>
+    <item>
+      <title>SaaStr AI 频道：这条内容为什么值得从一条视频，沉淀成一篇正式文章</title>
+      <link>https://yefangjie.de5.net/posts/saastr-ai-tired-vs-wired-4-trillion-in-ipos-coming-100b-in-m-a-and-why-the-saaspocalypse-is-over-2026-06-11-19-34-pu4ierjqwam/</link>
+      <pubDate>Thu, 11 Jun 2026 19:34:44 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/saastr-ai-tired-vs-wired-4-trillion-in-ipos-coming-100b-in-m-a-and-why-the-saaspocalypse-is-over-2026-06-11-19-34-pu4ierjqwam/</guid>
+      <description>解读 SaaStr AI 频道 这期约 50 分钟的视频，聚焦 AI Agent，核心涉及 AI、AI Agent、AI Agents、产品、AI Coding、增长。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。</description>
+    </item>
+    <item>
+      <title>Peter Yang 频道：这条内容为什么值得从一条视频，沉淀成一篇正式文章</title>
+      <link>https://yefangjie.de5.net/posts/peter-yang-how-this-ex-meta-l8-engineer-ships-40-prs-a-day-with-ai-agents-kun-chen-88b6dimmd2g/</link>
+      <pubDate>Wed, 10 Jun 2026 19:35:03 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/peter-yang-how-this-ex-meta-l8-engineer-ships-40-prs-a-day-with-ai-agents-kun-chen-88b6dimmd2g/</guid>
+      <description>解读 Peter Yang 频道 这期约 56 分钟的视频，聚焦 AI Agent，核心涉及 AI、AI Agent、AI Agents。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。</description>
+    </item>
+    <item>
+      <title>SaaStr AI 频道：这条内容为什么值得从一条视频，沉淀成一篇正式文章</title>
+      <link>https://yefangjie.de5.net/posts/saastr-ai-what-agents-that-actually-work-look-like-right-now-with-replit-s-ceo-and-founder-rdalltvn2-m/</link>
+      <pubDate>Wed, 10 Jun 2026 19:34:11 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/saastr-ai-what-agents-that-actually-work-look-like-right-now-with-replit-s-ceo-and-founder-rdalltvn2-m/</guid>
+      <description>解读 SaaStr AI 频道 这期约 47 分钟的视频，聚焦 AI Agent，核心涉及 AI、AI Agent、AI Agents。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。</description>
+    </item>
+    <item>
+      <title>IBM 科技频道：这期内容里，真正值得留下来的是什么？</title>
+      <link>https://yefangjie.de5.net/posts/ibm-mcp-vs-adk-how-modern-ai-agents-connect-and-work-together-bedaab1rkge/</link>
+      <pubDate>Mon, 18 May 2026 19:33:28 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/ibm-mcp-vs-adk-how-modern-ai-agents-connect-and-work-together-bedaab1rkge/</guid>
+      <description>解读 IBM 科技频道 这期约 14 分钟的视频，聚焦 上下文工程，核心涉及 AI、AI Agent、AI Agents。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。</description>
+    </item>
+    <item>
+      <title>IBM 科技频道：这期内容里，真正值得留下来的是什么？</title>
+      <link>https://yefangjie.de5.net/posts/ibm-why-ai-agents-break-zero-trust-at-the-last-mile-sbrek-txzae/</link>
+      <pubDate>Sun, 17 May 2026 19:33:14 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/ibm-why-ai-agents-break-zero-trust-at-the-last-mile-sbrek-txzae/</guid>
+      <description>解读 IBM 科技频道 这期约 13 分钟的视频，聚焦 AI Agent，核心涉及 AI、AI Agent、AI Agents、AI 安全。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。</description>
+    </item>
+    <item>
+      <title>IBM 科技频道 这期最值得看的，不是新闻，而是 AI 安全正在进入运行时阶段</title>
+      <link>https://yefangjie.de5.net/posts/ibm-ai-skills-security-open-ai-deployment-company-zero-days-ycwwh70fztq/</link>
+      <pubDate>Fri, 15 May 2026 20:02:41 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/ibm-ai-skills-security-open-ai-deployment-company-zero-days-ycwwh70fztq/</guid>
+      <description>解读 IBM 科技频道 这期约 39 分钟的视频，聚焦 AI Agent，核心涉及 AI、AI Agent、AI Agents、AI 安全。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。</description>
+    </item>
+    <item>
+      <title>SaaStr AI 频道：这条内容为什么值得从一条视频，沉淀成一篇正式文章</title>
+      <link>https://yefangjie.de5.net/posts/saastr-ai-our-ai-is-hiring-would-you-work-for-one-and-are-autonomous-agents-safe-the-agents-005-3lco8wczumo/</link>
+      <pubDate>Wed, 13 May 2026 19:34:05 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/saastr-ai-our-ai-is-hiring-would-you-work-for-one-and-are-autonomous-agents-safe-the-agents-005-3lco8wczumo/</guid>
+      <description>解读 SaaStr AI 频道 这期约 78 分钟的视频，聚焦 AI Agent，核心涉及 AI、AI Agent、AI Agents。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。</description>
+    </item>
+    <item>
+      <title>IBM 科技频道：这期内容里，真正值得留下来的是什么？</title>
+      <link>https://yefangjie.de5.net/posts/ibm-why-ai-agents-need-an-operating-system-ivgjbxqygmi/</link>
+      <pubDate>Tue, 12 May 2026 19:33:15 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/ibm-why-ai-agents-need-an-operating-system-ivgjbxqygmi/</guid>
+      <description>解读 IBM 科技频道 这期约 12 分钟的视频，聚焦 AI Agent，核心涉及 AI、AI Agent、AI Agents。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。</description>
+    </item>
+    <item>
+      <title>IBM 科技频道：这期内容里，真正值得留下来的是什么？</title>
+      <link>https://yefangjie.de5.net/posts/ibm-agentic-consent-explained-how-ai-agents-act-safely-and-responsibly-v-qjirvwyrq/</link>
+      <pubDate>Mon, 11 May 2026 08:02:25 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/ibm-agentic-consent-explained-how-ai-agents-act-safely-and-responsibly-v-qjirvwyrq/</guid>
+      <description>解读 IBM 科技频道 这期约 14 分钟的视频，聚焦 上下文工程，核心涉及 AI、AI Agent、AI Agents。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。</description>
+    </item>
+    <item>
+      <title>CNBC Television 这期最值得记住的，不是八卦，而是 AI 竞争逻辑正在变化</title>
+      <link>https://yefangjie.de5.net/posts/cnbc-television-head-of-claude-code-on-the-future-of-work-and-productivity-krgdkow82f0/</link>
+      <pubDate>Sat, 09 May 2026 19:57:46 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/cnbc-television-head-of-claude-code-on-the-future-of-work-and-productivity-krgdkow82f0/</guid>
+      <description>解读 CNBC Television 这期约 16 分钟的视频，聚焦 AI Agent，核心涉及 AI、AI Agent、AI Agents、产品。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。</description>
+    </item>
     <item>
       <title>NVIDIA NemoClaw, OpenAI&#39;s Pivot and Shopify Agents</title>
-      <link>https://yefangjie.github.io/blog/posts/nvidia-nemoclaw-ce-p69dv1jw/</link>
+      <link>https://yefangjie.de5.net/posts/nvidia-nemoclaw-ce-p69dv1jw/</link>
       <pubDate>Mon, 23 Mar 2026 09:00:00 +0800</pubDate>
-      <guid>https://yefangjie.github.io/blog/posts/nvidia-nemoclaw-ce-p69dv1jw/</guid>
+      <guid>https://yefangjie.de5.net/posts/nvidia-nemoclaw-ce-p69dv1jw/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Major developments in the AI agent ecosystem: NVIDIA&amp;rsquo;s NemoClaw framework, OpenAI&amp;rsquo;s strategic pivot, and Shopify&amp;rsquo;s approach to AI agents.&lt;/p&gt;
 &lt;h2 id=&#34;nvidia-nemoclaw&#34;&gt;NVIDIA NemoClaw&lt;/h2&gt;

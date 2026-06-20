@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI 工程 on 技术博客</title>
+    <link>https://yefangjie.de5.net/tags/ai-%E5%B7%A5%E7%A8%8B/</link>
+    <description>Recent content in AI 工程 on 技术博客</description>
+    <generator>Hugo -- 0.146.5</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 14 Jun 2026 20:28:15 +0800</lastBuildDate>
+    <atom:link href="https://yefangjie.de5.net/tags/ai-%E5%B7%A5%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>All-In 播客：这期内容里，真正值得留下来的是什么？</title>
+      <link>https://yefangjie.de5.net/posts/all-in-podcast-anthropic-s-fable-backlash-nationalizing-ai-inflation-heats-up-california-s-broken-elections-gh4ftjdm9fq/</link>
+      <pubDate>Sun, 14 Jun 2026 20:28:15 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/all-in-podcast-anthropic-s-fable-backlash-nationalizing-ai-inflation-heats-up-california-s-broken-elections-gh4ftjdm9fq/</guid>
+      <description>解读 All-In 播客 这期约 0 分钟的视频，聚焦 AI 工程，核心涉及 AI、RAG。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。</description>
+    </item>
+    <item>
+      <title>All-In 播客：这期内容里，真正值得留下来的是什么？</title>
+      <link>https://yefangjie.de5.net/posts/all-in-podcast-dan-dreyfus-america-s-infrastructure-is-shockingly-fragile-xto1aq-m44i/</link>
+      <pubDate>Wed, 10 Jun 2026 19:36:49 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/all-in-podcast-dan-dreyfus-america-s-infrastructure-is-shockingly-fragile-xto1aq-m44i/</guid>
+      <description>解读 All-In 播客 这期约 24 分钟的视频，聚焦 AI 工程，核心涉及 RAG。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。</description>
+    </item>
+    <item>
+      <title>IBM 科技频道：这期内容里，真正值得留下来的是什么？</title>
+      <link>https://yefangjie.de5.net/posts/ibm-predictive-vs-generative-ai-how-they-work-and-when-to-use-each-phohgqpxss4/</link>
+      <pubDate>Tue, 12 May 2026 06:41:52 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/ibm-predictive-vs-generative-ai-how-they-work-and-when-to-use-each-phohgqpxss4/</guid>
+      <description>解读 IBM 科技频道 这期约 11 分钟的视频，聚焦 AI 工程，核心涉及 AI、LLM。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。</description>
+    </item>
+  </channel>
+</rss>

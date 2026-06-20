@@ -6,8 +6,22 @@
     <description>Recent content in Claude on 技术博客</description>
     <generator>Hugo -- 0.146.5</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 07 May 2026 05:50:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 21:39:28 +0800</lastBuildDate>
     <atom:link href="https://yefangjie.de5.net/tags/claude/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude 讲 AI Native Engineering：真正难的不是写代码，而是重写工程组织</title>
+      <link>https://yefangjie.de5.net/posts/claude-running-an-ai-native-engineering-org-igo8iyca2-g/</link>
+      <pubDate>Thu, 14 May 2026 21:39:28 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/claude-running-an-ai-native-engineering-org-igo8iyca2-g/</guid>
+      <description>解读 Claude 这期 28 分钟演讲：当 agentic coding 从个人工具变成团队默认工作方式，真正的瓶颈会从编码转向 review、ownership、planning、hiring 与组织设计。</description>
+    </item>
+    <item>
+      <title>这期 All-In 真正该看的，不是八卦，而是 AI 权力格局开始重新排位</title>
+      <link>https://yefangjie.de5.net/posts/all-in-podcast-openai-misses-targets-codex-vs-claude-elon-vs-sam-trial-big-hyperscaler-beats-peptide-craze-fpc4sbawszq/</link>
+      <pubDate>Sat, 09 May 2026 13:50:03 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/all-in-podcast-openai-misses-targets-codex-vs-claude-elon-vs-sam-trial-big-hyperscaler-beats-peptide-craze-fpc4sbawszq/</guid>
+      <description>解读 All-In 这期约 80 分钟的视频，重点不在八卦，而在 OpenAI、Claude、Elon、Sam Altman、大厂财报和 AI 安全背后，AI 行业的竞争逻辑与权力结构正在如何变化。</description>
+    </item>
     <item>
       <title>Claude 正在变成创意中台：Higgsfield 给出的，不只是 AI 广告，而是一条可规模化的生产线</title>
       <link>https://yefangjie.de5.net/posts/higgsfield-claude-creative-agency-xn6z5pyyaie/</link>

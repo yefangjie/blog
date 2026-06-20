@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Runtime Security on 技术博客</title>
-    <link>https://yefangjie.github.io/blog/tags/runtime-security/</link>
+    <link>https://yefangjie.de5.net/tags/runtime-security/</link>
     <description>Recent content in Runtime Security on 技术博客</description>
     <generator>Hugo -- 0.146.5</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 23 Mar 2026 09:00:00 +0800</lastBuildDate>
-    <atom:link href="https://yefangjie.github.io/blog/tags/runtime-security/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yefangjie.de5.net/tags/runtime-security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What is Agentic Security Runtime? Securing AI Agents</title>
-      <link>https://yefangjie.github.io/blog/posts/agentic-security-runtime-nh0plidqdmk/</link>
+      <link>https://yefangjie.de5.net/posts/agentic-security-runtime-nh0plidqdmk/</link>
       <pubDate>Mon, 23 Mar 2026 09:00:00 +0800</pubDate>
-      <guid>https://yefangjie.github.io/blog/posts/agentic-security-runtime-nh0plidqdmk/</guid>
+      <guid>https://yefangjie.de5.net/posts/agentic-security-runtime-nh0plidqdmk/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;This video explores the emerging field of agentic security runtime - a critical new layer of security designed specifically for AI agents that operate autonomously.&lt;/p&gt;
 &lt;h2 id=&#34;what-is-agentic-security-runtime&#34;&gt;What is Agentic Security Runtime?&lt;/h2&gt;

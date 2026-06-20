@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Claude Code on 技术博客</title>
+    <link>https://yefangjie.de5.net/tags/claude-code/</link>
+    <description>Recent content in Claude Code on 技术博客</description>
+    <generator>Hugo -- 0.146.5</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 09 May 2026 20:05:00 +0800</lastBuildDate>
+    <atom:link href="https://yefangjie.de5.net/tags/claude-code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Boris Cherny 和 Claude Code：当他说 coding is solved，他真正改写的是软件生产与工作的分工</title>
+      <link>https://yefangjie.de5.net/posts/boris-cherny-claude-code-coding-is-solved-and-the-future-of-work/</link>
+      <pubDate>Sat, 09 May 2026 20:05:00 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/boris-cherny-claude-code-coding-is-solved-and-the-future-of-work/</guid>
+      <description>结合 Sequoia 与 CNBC 两场 Boris Cherny 访谈，这篇文章讨论的重点不是一句“coding is solved”，而是 Claude Code 背后正在发生的更大变化：软件生产的最小单位在变，知识工作的分工也在变。</description>
+    </item>
+    <item>
+      <title>Boris 说“coding is solved”时，真正被改写的不是程序员，而是软件生产的最小单位</title>
+      <link>https://yefangjie.de5.net/posts/sequoia-capital-anthropic-s-boris-cherny-why-coding-is-solved-and-what-comes-next-slgrn8jh2ri/</link>
+      <pubDate>Sat, 09 May 2026 19:37:51 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/sequoia-capital-anthropic-s-boris-cherny-why-coding-is-solved-and-what-comes-next-slgrn8jh2ri/</guid>
+      <description>解读 Boris Cherny 在 Sequoia 这场关于 Claude Code 的分享。重点不在一句“coding is solved”，而在它背后透露出的变化：工程师的价值，正在从直接写代码转向组织软件生产系统。</description>
+    </item>
+  </channel>
+</rss>

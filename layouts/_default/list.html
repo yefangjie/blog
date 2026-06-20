@@ -1,61 +1,53 @@
 {{ define "main" }}
 <div class="home-container">
   {{ if .Site.Params.profileMode.enabled }}
-  <section class="hero-section" aria-label="网站介绍">
-    <div class="hero-content">
-      <h1 data-testid="site-title">{{ .Site.Params.profileMode.title | default .Site.Title }}</h1>
-      <p class="hero-subtitle" data-testid="site-description">{{ .Site.Params.profileMode.subtitle }}</p>
-      
-      {{ if .Site.Params.profileMode.buttons }}
-      <nav class="hero-buttons" aria-label="快速导航">
-        {{ range .Site.Params.profileMode.buttons }}
-        <a href="{{ .url | absURL }}" 
-           class="hero-btn"
-           data-testid="hero-btn-{{ .name }}"
-           data-ai-action="navigate-{{ .name }}">{{ .name }}</a>
-        {{ end }}
-      </nav>
-      {{ end }}
-    </div>
-  </section>
+    {{ partial "home_info.html" . }}
   {{ end }}
 
   <section class="content-wrapper" aria-label="文章列表">
     <div class="main-content">
       <header class="section-header">
-        <h2 data-testid="posts-section-title">最新文章</h2>
-        <a href="/posts/" 
-           class="view-all"
-           data-testid="view-all-posts"
-           data-ai-action="view-all-posts">查看全部 →</a>
+        <h2>最新文章</h2>
+        {{ if not .IsSection }}
+        {{ else }}
+          <a href="/posts/" class="view-all">查看全部 →</a>
+        {{ end }}
       </header>
 
-      <div class="posts-grid" role="feed" aria-busy="false" data-testid="posts-grid">
-        {{ range (.Paginate .Pages).Pages }}
-        <article class="post-card" 
-                 role="article"
-                 data-testid="post-card">
-          <a href="{{ .Permalink }}" 
-             class="post-card-link"
-             data-ai-action="read-post"
-             aria-label="阅读文章: {{ .Title }}">
-            
-            <header class="post-card-header">
-              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
-              <span class="reading-time" aria-label="阅读时间">{{ .ReadingTime }} 分钟</span>
+      <div class="posts-grid" role="feed" aria-busy="false">
+        {{ $pages := .Pages }}
+        {{ if .IsHome }}
+          {{ $pages = where .Site.RegularPages "Section" "posts" }}
+        {{ end }}
+        {{ range (.Paginate $pages).Pages }}
+        <article class="post-entry" role="article">
+          <a href="{{ .Permalink }}" style="text-decoration:none;color:inherit;display:block;padding:20px 24px;">
+            <header class="entry-header">
+              <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;font-size:0.82em;color:var(--text-muted);">
+                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+                <span>·</span>
+                <span>{{ .ReadingTime }} 分钟</span>
+                {{ with .Params.categories }}
+                <span>·</span>
+                {{ range . }}
+                <span style="color:var(--accent);font-weight:500;">{{ . }}</span>
+                {{ end }}
+                {{ end }}
+              </div>
+              <h2 style="margin:0;">{{ .Title }}</h2>
             </header>
             
-            <h3 class="post-card-title">{{ .Title }}</h3>
+            <div class="entry-content" style="margin-top:8px;">
+              {{ .Summary | truncate 140 }}
+            </div>
             
-            <div class="post-card-summary">{{ .Summary | truncate 120 }}</div>
-            
-            <footer class="post-card-footer">
-              {{ if .Params.tags }}
-                {{ range .Params.tags }}
-                <span class="tag" data-ai-tag="{{ . }}">{{ . }}</span>
-                {{ end }}
+            {{ with .Params.tags }}
+            <footer class="entry-footer" style="margin-top:12px;display:flex;flex-wrap:wrap;gap:6px;">
+              {{ range . }}
+              <span class="post-tag" style="font-size:0.75em;padding:2px 8px;">{{ . }}</span>
               {{ end }}
             </footer>
+            {{ end }}
           </a>
         </article>
         {{ end }}

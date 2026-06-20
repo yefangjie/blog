@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Project Glass Wing on 技术博客</title>
+    <link>https://yefangjie.de5.net/tags/project-glass-wing/</link>
+    <description>Recent content in Project Glass Wing on 技术博客</description>
+    <generator>Hugo -- 0.146.5</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 22 Apr 2026 13:45:00 +0800</lastBuildDate>
+    <atom:link href="https://yefangjie.de5.net/tags/project-glass-wing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anthropic 的 Mythos 模型为何让人不安：从聊天机器人焦虑，走向基础设施安全焦虑</title>
+      <link>https://yefangjie.de5.net/posts/anthropic-mythos-cybersecurity-concerns-jkyefjcyb-m/</link>
+      <pubDate>Wed, 22 Apr 2026 13:45:00 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/anthropic-mythos-cybersecurity-concerns-jkyefjcyb-m/</guid>
+      <description>&lt;h1 id=&#34;cybersecurity-concerns-over-anthropics-mythos-model--anthropic-的-mythos-模型为何让人不安&#34;&gt;Cybersecurity Concerns Over Anthropic&amp;rsquo;s Mythos Model | Anthropic 的 Mythos 模型为何让人不安&lt;/h1&gt;
+&lt;h2 id=&#34;视频信息--video-info&#34;&gt;视频信息 | Video Info&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Title | 标题&lt;/strong&gt;: Cybersecurity Concerns Over Anthropic&amp;rsquo;s Mythos Model&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link | 链接&lt;/strong&gt;: &lt;a href=&#34;https://youtu.be/JKyefjCYB-M&#34;&gt;https://youtu.be/JKyefjCYB-M&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Source | 来源&lt;/strong&gt;: Brian Lehrer Show (WNYC), guest: Miranda Nazzaro from &lt;em&gt;The Hill&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Format | 形式&lt;/strong&gt;: Bilingual blog rewrite based on video discussion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;executive-summary--核心摘要&#34;&gt;Executive Summary | 核心摘要&lt;/h2&gt;
+&lt;h3 id=&#34;english&#34;&gt;English&lt;/h3&gt;
+&lt;p&gt;Every few days, AI makes headlines for another familiar reason: job disruption, productivity gains, or model rivalry. But the Mythos story feels different. According to the interview, Anthropic chose not to publicly release a new AI system called Mythos Preview because of cybersecurity concerns. That alone is unusual. More unusual is the framing: this was not presented as a speculative future risk, but as a capability serious enough to reshape how governments, banks, and security teams think about defense.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

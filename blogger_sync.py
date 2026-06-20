@@ -9,13 +9,32 @@ import json
 import base64
 import urllib.request
 import urllib.parse
+import webbrowser
 from pathlib import Path
 from datetime import datetime
+from http.server import BaseHTTPRequestHandler, HTTPServer
+import threading
+
+
+def load_local_env():
+    """从当前目录 .env 加载 Blogger 配置，避免必须手动 export 环境变量。"""
+    env_path = Path(__file__).resolve().parent / '.env'
+    if not env_path.exists():
+        return
+    for raw in env_path.read_text(encoding='utf-8').splitlines():
+        line = raw.strip()
+        if not line or line.startswith('#') or '=' not in line:
+            continue
+        key, value = line.split('=', 1)
+        os.environ.setdefault(key.strip(), value.strip())
+
+
+load_local_env()
 
 # 配置
 CLIENT_ID = os.getenv('BLOGGER_CLIENT_ID', '')
 CLIENT_SECRET = os.getenv('BLOGGER_CLIENT_SECRET', '')
-BLOG_ID = '5614946579155104969'
+BLOG_ID = os.getenv('BLOGGER_BLOG_ID', '5614946579155104969')
 TOKEN_FILE = Path.home() / '.openclaw' / '.blogger_token.json'
 
 class BloggerSync:
@@ -41,11 +60,10 @@ class BloggerSync:
         with open(TOKEN_FILE, 'w') as f:
             json.dump(token_data, f)
     
-    def get_auth_url(self):
+    def get_auth_url(self, redirect_uri):
         """生成 OAuth 授权 URL"""
         scope = 'https://www.googleapis.com/auth/blogger'
-        redirect_uri = 'urn:ietf:wg:oauth:2.0:oob'  # 桌面应用
-        
+
         params = {
             'client_id': self.client_id,
             'redirect_uri': redirect_uri,
@@ -54,20 +72,20 @@ class BloggerSync:
             'access_type': 'offline',
             'prompt': 'consent'
         }
-        
+
         auth_url = 'https://accounts.google.com/o/oauth2/v2/auth?' + urllib.parse.urlencode(params)
         return auth_url
-    
-    def exchange_code(self, auth_code):
+
+    def exchange_code(self, auth_code, redirect_uri):
         """用授权码换取 token"""
         token_url = 'https://oauth2.googleapis.com/token'
-        
+
         data = {
             'client_id': self.client_id,
             'client_secret': self.client_secret,
             'code': auth_code,
             'grant_type': 'authorization_code',
-            'redirect_uri': 'urn:ietf:wg:oauth:2.0:oob'
+            'redirect_uri': redirect_uri
         }
         
         req = urllib.request.Request(
@@ -128,46 +146,70 @@ class BloggerSync:
             print(f"❌ Token 刷新失败: {e}")
             return False
     
-    def create_post(self, title, content, labels=None):
-        """创建博客文章"""
+    def api_request(self, url, method='GET', data=None):
         if not self.access_token:
             print("❌ 未授权，请先运行授权流程")
+            return {'error': 'unauthorized'}
+        body = None if data is None else json.dumps(data).encode()
+        req = urllib.request.Request(
+            url,
+            data=body,
+            headers={
+                'Content-Type': 'application/json',
+                'Authorization': f'Bearer {self.access_token}'
+            },
+            method=method
+        )
+        try:
+            with urllib.request.urlopen(req) as response:
+                return json.loads(response.read().decode())
+        except urllib.error.HTTPError as e:
+            payload = e.read().decode()
+            if e.code == 401:
+                print("⚠️ Token 过期，尝试刷新...")
+                if self.refresh_access_token():
+                    return self.api_request(url, method=method, data=data)
+            return {'error': payload, 'http_code': e.code}
+        except Exception as e:
+            return {'error': str(e)}
+
+    def find_post_by_title(self, title):
+        url = f'https://www.googleapis.com/blogger/v3/blogs/{self.blog_id}/posts/search?q=' + urllib.parse.quote(title)
+        result = self.api_request(url)
+        if result.get('error'):
             return None
-        
-        url = f'https://www.googleapis.com/blogger/v3/blogs/{self.blog_id}/posts/'
-        
+        for item in result.get('items', []) or []:
+            if item.get('title') == title:
+                return item
+        return None
+
+    def create_or_update_post(self, title, content, labels=None):
+        existing = self.find_post_by_title(title)
         post_data = {
             'kind': 'blogger#post',
             'blog': {'id': self.blog_id},
             'title': title,
             'content': content,
         }
-        
         if labels:
             post_data['labels'] = labels
-        
-        req = urllib.request.Request(
-            url,
-            data=json.dumps(post_data).encode(),
-            headers={
-                'Content-Type': 'application/json',
-                'Authorization': f'Bearer {self.access_token}'
-            },
-            method='POST'
-        )
-        
-        try:
-            with urllib.request.urlopen(req) as response:
-                result = json.loads(response.read().decode())
-                print(f"✅ 文章发布成功: {result.get('url')}")
-                return result
-        except urllib.error.HTTPError as e:
-            if e.code == 401:
-                print("⚠️ Token 过期，尝试刷新...")
-                if self.refresh_access_token():
-                    return self.create_post(title, content, labels)
-            print(f"❌ 发布失败: {e.read().decode()}")
-            return None
+        if existing and existing.get('id'):
+            url = f'https://www.googleapis.com/blogger/v3/blogs/{self.blog_id}/posts/{existing["id"]}'
+            result = self.api_request(url, method='PUT', data=post_data)
+            if not result.get('error'):
+                print(f"✅ 文章更新成功: {result.get('url')}")
+                result['_action'] = 'updated'
+            else:
+                print(f"❌ 更新失败: {result.get('error')}")
+            return result
+        url = f'https://www.googleapis.com/blogger/v3/blogs/{self.blog_id}/posts/'
+        result = self.api_request(url, method='POST', data=post_data)
+        if not result.get('error'):
+            print(f"✅ 文章发布成功: {result.get('url')}")
+            result['_action'] = 'created'
+        else:
+            print(f"❌ 发布失败: {result.get('error')}")
+        return result
     
     def sync_hugo_post(self, hugo_file_path):
         """同步 Hugo 文章到 Blogspot"""
@@ -197,11 +239,11 @@ class BloggerSync:
                 # 转换 Markdown 为 HTML（简单处理）
                 html_content = self.markdown_to_html(body)
                 
-                # 发布到 Blogspot
-                return self.create_post(title, html_content, tags)
-        
+                # 发布到 Blogspot（存在同标题则更新）
+                return self.create_or_update_post(title, html_content, tags)
+
         print("❌ 无法解析 Hugo 文章格式")
-        return None
+        return {'error': 'invalid_hugo_format'}
     
     def markdown_to_html(self, markdown_text):
         """简单 Markdown 转 HTML"""
@@ -224,37 +266,89 @@ class BloggerSync:
         
         return html
 
+class OAuthCallbackHandler(BaseHTTPRequestHandler):
+    auth_code = None
+    error = None
+
+    def do_GET(self):
+        parsed = urllib.parse.urlparse(self.path)
+        params = urllib.parse.parse_qs(parsed.query)
+        if 'code' in params:
+            OAuthCallbackHandler.auth_code = params['code'][0]
+            body = 'Blogger 授权成功，可以回到终端了。'
+            self.send_response(200)
+        else:
+            OAuthCallbackHandler.error = params.get('error', ['unknown_error'])[0]
+            body = f'Blogger 授权失败：{OAuthCallbackHandler.error}'
+            self.send_response(400)
+        self.send_header('Content-Type', 'text/plain; charset=utf-8')
+        self.end_headers()
+        self.wfile.write(body.encode('utf-8'))
+
+    def log_message(self, format, *args):
+        return
+
+
+def run_local_auth(sync, port=8765):
+    redirect_uri = f'http://127.0.0.1:{port}/callback'
+    auth_url = sync.get_auth_url(redirect_uri)
+    OAuthCallbackHandler.auth_code = None
+    OAuthCallbackHandler.error = None
+    server = HTTPServer(('127.0.0.1', port), OAuthCallbackHandler)
+    thread = threading.Thread(target=server.handle_request, daemon=True)
+    thread.start()
+
+    print('\n🌐 请在这台机器的浏览器中打开以下 URL 并授权：\n')
+    print(auth_url)
+    print('\n⏳ 授权完成后，脚本会自动接收回调并换取 token。')
+    try:
+        webbrowser.open(auth_url)
+    except Exception:
+        pass
+
+    thread.join(timeout=300)
+    server.server_close()
+
+    if OAuthCallbackHandler.auth_code:
+        return sync.exchange_code(OAuthCallbackHandler.auth_code, redirect_uri)
+    if OAuthCallbackHandler.error:
+        print(f'❌ 授权失败: {OAuthCallbackHandler.error}')
+        return False
+    print('❌ 5 分钟内没有收到授权回调，请重试。')
+    return False
+
+
 def main():
     import sys
-    
+
     sync = BloggerSync()
-    
+
     if len(sys.argv) < 2:
         print("使用方法:")
-        print("  python3 blogger_sync.py auth          # 获取授权 URL")
-        print("  python3 blogger_sync.py token CODE    # 用授权码换取 token")
-        print("  python3 blogger_sync.py sync FILE     # 同步 Hugo 文章")
+        print("  python3 blogger_sync.py auth                 # 本地浏览器授权并自动保存 token")
+        print("  python3 blogger_sync.py token CODE URI      # 手动用授权码换取 token")
+        print("  python3 blogger_sync.py sync FILE           # 同步 Hugo 文章")
         sys.exit(1)
-    
+
     command = sys.argv[1]
-    
+
     if command == 'auth':
-        auth_url = sync.get_auth_url()
-        print("\n🌐 请在浏览器中访问以下 URL 并授权:\n")
-        print(auth_url)
-        print("\n📋 授权后，复制返回的授权码，运行:")
-        print(f"  python3 blogger_sync.py token YOUR_CODE")
-    
-    elif command == 'token' and len(sys.argv) >= 3:
+        port = int(sys.argv[2]) if len(sys.argv) >= 3 else 8765
+        run_local_auth(sync, port=port)
+
+    elif command == 'token' and len(sys.argv) >= 4:
         auth_code = sys.argv[2]
-        sync.exchange_code(auth_code)
-    
+        redirect_uri = sys.argv[3]
+        sync.exchange_code(auth_code, redirect_uri)
+
     elif command == 'sync' and len(sys.argv) >= 3:
         hugo_file = sys.argv[2]
         sync.sync_hugo_post(hugo_file)
-    
+
     else:
         print("❌ 未知命令")
+        print("示例：python3 blogger_sync.py auth")
+        print("示例：python3 blogger_sync.py token CODE http://127.0.0.1:8765/callback")
 
 if __name__ == '__main__':
     main()

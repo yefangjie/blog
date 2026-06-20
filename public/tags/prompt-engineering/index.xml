@@ -2,17 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Prompt Engineering on 技术博客</title>
-    <link>https://yefangjie.github.io/blog/tags/prompt-engineering/</link>
+    <link>https://yefangjie.de5.net/tags/prompt-engineering/</link>
     <description>Recent content in Prompt Engineering on 技术博客</description>
     <generator>Hugo -- 0.146.5</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yefangjie.github.io/blog/tags/prompt-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Apr 2026 15:20:00 +0800</lastBuildDate>
+    <atom:link href="https://yefangjie.de5.net/tags/prompt-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>从 Prompt Engineering 到 Agent Engineering：想把 AI Agent 做进生产环境，你至少得补齐这 7 个能力</title>
+      <link>https://yefangjie.de5.net/posts/agent-engineering-seven-skills-mtiok2qg9q0/</link>
+      <pubDate>Tue, 21 Apr 2026 15:20:00 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/agent-engineering-seven-skills-mtiok2qg9q0/</guid>
+      <description>&lt;p&gt;上周我看到一个招聘启事，差点笑出声。&lt;/p&gt;
+&lt;p&gt;它写着：招聘一名 &lt;strong&gt;Prompt Engineer&lt;/strong&gt;，要求具备 &lt;strong&gt;分布式系统、API 设计、机器学习运维、安全工程和产品管理&lt;/strong&gt; 经验。&lt;/p&gt;
+&lt;p&gt;说实话，这根本不是在招提示词工程师，这像是在招 &lt;strong&gt;五个人&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;但仔细想想，这个 JD 本身也不算错。错的不是要求太多，而是这个岗位名字起错了。&lt;/p&gt;
+&lt;p&gt;因为当你真正开始构建一个能在现实世界里执行任务、调用工具、访问数据、做出决策的 AI Agent 时，你会很快发现：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;问题早就不是“提示词怎么写得更漂亮”，而是“系统怎么设计得足够可靠”。&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;这也是这支视频最核心的判断：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Prompt Engineering 只是起点，Agent Engineering 才是把 AI 做进生产环境的真本事。&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;作者把这件事拆成了 7 个关键能力。我看完以后觉得，这个框架非常适合拿来给所有想做 AI Agent 的人校正预期。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;一prompt-工程像菜谱agent-工程像当主厨&#34;&gt;一、Prompt 工程像菜谱，Agent 工程像当主厨&lt;/h2&gt;
+&lt;p&gt;视频里用了一个很妙的比喻。&lt;/p&gt;
+&lt;p&gt;一个厨师不是只会照着菜谱做饭。任何人都可以照步骤把菜做出来，但真正的厨师理解的是：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;食材&lt;/li&gt;
+&lt;li&gt;火候&lt;/li&gt;
+&lt;li&gt;节奏&lt;/li&gt;
+&lt;li&gt;厨房协作&lt;/li&gt;
+&lt;li&gt;食品安全&lt;/li&gt;
+&lt;li&gt;出错时怎么即兴补救&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;菜谱只是起点。&lt;/p&gt;
+&lt;p&gt;放在 AI 世界里也一样：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Prompt Engineering&lt;/strong&gt; 像菜谱&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Agent Engineering&lt;/strong&gt; 像当主厨&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果你现在还停留在“我会写几个好 prompt”，那你更接近会照方抓药；如果你想做的是能落地、能执行、能抗故障的系统，那你必须开始学主厨那一套。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;二真正能把-agent-做进生产环境的人至少要补齐这-7-个能力&#34;&gt;二、真正能把 Agent 做进生产环境的人，至少要补齐这 7 个能力&lt;/h2&gt;
+&lt;h3 id=&#34;1-系统设计system-design&#34;&gt;1. 系统设计（System Design）&lt;/h3&gt;
+&lt;p&gt;作者认为，第一能力不是 prompt，而是 &lt;strong&gt;系统设计&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;因为你在做的已经不是“一个会聊天的模型”，而是一整个协作系统：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;LLM 在做决策&lt;/li&gt;
+&lt;li&gt;Tools 在执行动作&lt;/li&gt;
+&lt;li&gt;数据库在存状态&lt;/li&gt;
+&lt;li&gt;可能有多个模型或子 Agent 分工&lt;/li&gt;
+&lt;li&gt;不同模块之间还要协调、回滚、重试&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这本质上就是架构设计问题：&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Better Instructions, Better AI Results: The Communication Gap</title>
-      <link>https://yefangjie.github.io/blog/posts/better-instructions-better-ai-results-ajesffzvfay/</link>
+      <link>https://yefangjie.de5.net/posts/better-instructions-better-ai-results-ajesffzvfay/</link>
       <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://yefangjie.github.io/blog/posts/better-instructions-better-ai-results-ajesffzvfay/</guid>
+      <guid>https://yefangjie.de5.net/posts/better-instructions-better-ai-results-ajesffzvfay/</guid>
       <description>&lt;h1 id=&#34;better-instructions-better-ai-results-the-communication-gap&#34;&gt;Better Instructions, Better AI Results: The Communication Gap&lt;/h1&gt;
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This IBM Technology video explores a fundamental shift in how we interact with AI systems - the recognition that clear, precise communication with AI agents requires the same (or greater) level of care as managing human teams.&lt;/p&gt;

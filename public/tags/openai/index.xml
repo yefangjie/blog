@@ -2,17 +2,114 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>OpenAI on 技术博客</title>
-    <link>https://yefangjie.github.io/blog/tags/openai/</link>
+    <link>https://yefangjie.de5.net/tags/openai/</link>
     <description>Recent content in OpenAI on 技术博客</description>
     <generator>Hugo -- 0.146.5</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 23 Mar 2026 09:00:00 +0800</lastBuildDate>
-    <atom:link href="https://yefangjie.github.io/blog/tags/openai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 May 2026 13:50:03 +0800</lastBuildDate>
+    <atom:link href="https://yefangjie.de5.net/tags/openai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>这期 All-In 真正该看的，不是八卦，而是 AI 权力格局开始重新排位</title>
+      <link>https://yefangjie.de5.net/posts/all-in-podcast-openai-misses-targets-codex-vs-claude-elon-vs-sam-trial-big-hyperscaler-beats-peptide-craze-fpc4sbawszq/</link>
+      <pubDate>Sat, 09 May 2026 13:50:03 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/all-in-podcast-openai-misses-targets-codex-vs-claude-elon-vs-sam-trial-big-hyperscaler-beats-peptide-craze-fpc4sbawszq/</guid>
+      <description>解读 All-In 这期约 80 分钟的视频，重点不在八卦，而在 OpenAI、Claude、Elon、Sam Altman、大厂财报和 AI 安全背后，AI 行业的竞争逻辑与权力结构正在如何变化。</description>
+    </item>
+    <item>
+      <title>All-In Podcast 这一期最值得看的，不是八卦，而是 AI 竞争开始从模型秀场转向工作流之争</title>
+      <link>https://yefangjie.de5.net/posts/all-in-openai-codex-claude-workflow-competition-fpc4sbawszq/</link>
+      <pubDate>Wed, 06 May 2026 23:35:00 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/all-in-openai-codex-claude-workflow-competition-fpc4sbawszq/</guid>
+      <description>&lt;p&gt;这期 &lt;strong&gt;All-In Podcast&lt;/strong&gt; 表面上聊得很散：OpenAI targets、Codex vs Claude、Elon vs Sam、科技巨头财报、AI coding 事故、peptides。&lt;/p&gt;
+&lt;p&gt;但如果把其中最关键的 AI 片段拎出来看，会得到一个比“谁家模型更强”更重要的判断：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;AI 的竞争，正在从模型演示，转向工作流嵌入、分发能力和基础设施兑现。&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;这才是我觉得这期最值得关注的地方。&lt;/p&gt;
+&lt;h2 id=&#34;一openai-misses-targets市场开始要求兑现而不只是声量&#34;&gt;一、OpenAI misses targets：市场开始要求兑现，而不只是声量&lt;/h2&gt;
+&lt;p&gt;OpenAI 依然是 AI 里最强的品牌之一，这点没变。&lt;/p&gt;
+&lt;p&gt;但“misses targets” 这类讨论真正重要的，不是 drama，而是市场评价逻辑正在变得更现实。&lt;/p&gt;
+&lt;p&gt;早期阶段，大家会盯着：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;模型是不是最聪明&lt;/li&gt;
+&lt;li&gt;demo 是不是最惊艳&lt;/li&gt;
+&lt;li&gt;叙事是不是最会打&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;但当行业进入更深的商业化阶段，问题会迅速变成：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用量有没有兑现&lt;/li&gt;
+&lt;li&gt;企业采用是否持续&lt;/li&gt;
+&lt;li&gt;产品有没有真正进入日常流程&lt;/li&gt;
+&lt;li&gt;增长是不是有质量&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这意味着，AI 公司正在从“制造想象”进入“证明运营能力”的阶段。&lt;/p&gt;
+&lt;h2 id=&#34;二codex-vs-claude这不是单纯的模型对比而是-workflow-battle&#34;&gt;二、Codex vs Claude：这不是单纯的模型对比，而是 workflow battle&lt;/h2&gt;
+&lt;p&gt;节目里关于 Codex 和 Claude 的比较，我最在意的不是模型谁更强，而是开发者工作流入口这件事。&lt;/p&gt;
+&lt;p&gt;coding 产品最后比的，往往不是一次性惊艳，而是长期嵌入：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;是否出现在开发者每天都会经过的环节里&lt;/li&gt;
+&lt;li&gt;是否持续减少摩擦&lt;/li&gt;
+&lt;li&gt;是否稳定到能被真实团队依赖&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;所以它本质上越来越像平台竞争：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;比集成位置&lt;/li&gt;
+&lt;li&gt;比 adoption friction&lt;/li&gt;
+&lt;li&gt;比团队迁移成本&lt;/li&gt;
+&lt;li&gt;比 workflow lock-in&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;谁能占住工作流，谁才更可能把模型能力转成长期商业结果。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;三hyperscaler-capex-还在爆这轮基础设施争夺远没结束&#34;&gt;三、hyperscaler capex 还在爆：这轮基础设施争夺远没结束&lt;/h2&gt;
+&lt;p&gt;节目里关于大厂财报和资本开支的讨论，同样很值得看。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Claude Mythos、Project Glasswing 与 AI 安全现实：IBM Technology 新一期内容解读</title>
+      <link>https://yefangjie.de5.net/posts/claude-mythos-project-glasswing-ai-security-dgnhbf-ktku/</link>
+      <pubDate>Fri, 10 Apr 2026 19:33:00 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/claude-mythos-project-glasswing-ai-security-dgnhbf-ktku/</guid>
+      <description>&lt;p&gt;这期 &lt;strong&gt;Mixture of Experts&lt;/strong&gt; 信息量很大，但核心其实很清楚：&lt;strong&gt;AI 行业已经从“模型能力竞赛”进入“能力、成本与安全三线拉扯”的阶段。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;视频主要讨论了四个主题：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Anthropic Project Glasswing 与 Mythos 模型不发布的原因&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OpenAI 与 Anthropic 财务数据暴露出的路线分化&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GPT-1900 实验：AI 能否重新发现科学突破？&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Masters Vault：用自然语言搜索 58 年高尔夫赛事影像&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;我看完后的判断很直接：&lt;strong&gt;最值得关注的并不是某个模型又强了多少，而是 AI 系统一旦接入工具、代码和企业流程之后，安全边界、推理成本和真实业务价值会同时变成一场硬仗。&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;一project-glasswing--mythos不发布本身就是一个安全信号&#34;&gt;一、Project Glasswing / Mythos：不发布，本身就是一个安全信号&lt;/h2&gt;
+&lt;p&gt;视频开头讨论了 Anthropic 的 &lt;strong&gt;Project Glasswing&lt;/strong&gt;，以及为什么 &lt;strong&gt;Mythos&lt;/strong&gt; 这样的模型不会轻易对外发布。&lt;/p&gt;
+&lt;p&gt;这背后传递的信息非常现实：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;不是“做得出来”就一定要发布&lt;/li&gt;
+&lt;li&gt;工具能力越强，滥用空间也越大&lt;/li&gt;
+&lt;li&gt;一切能被用于“好事”的能力，也几乎一定能被别人用于“坏事”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这不是保守，而是成熟。很多人对 AI 的想象还停留在“模型越开放越先进”，但对企业和安全团队来说，问题从来不是“能不能做”，而是：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;谁能调用？&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;调用后能接触什么？&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;一旦被提示注入或供应链污染，会造成多大损失？&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果一个模型已经具备较强的代理式能力、工具调用能力，甚至能操作代码、流程和外部系统，那么它面对的就不再只是“模型评测榜单”，而是完整的攻击面。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;我的看法：Anthropic 不把某些能力直接放出去，不是怂，是知道这玩意儿一旦放开，后果不止是 demo 跑飞，而是安全研究成本骤降、攻击者学习曲线被抹平。&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;二ai-安全的麻烦不在某一家而在整个-agentic-ai-结构&#34;&gt;二、AI 安全的麻烦，不在某一家，而在整个 Agentic AI 结构&lt;/h2&gt;
+&lt;p&gt;视频里一个很关键的观点是：某些泄露或攻击事件并不只是某个产品自己的问题，而是整个 &lt;strong&gt;Agentic AI&lt;/strong&gt; 生态的系统性脆弱性暴露。&lt;/p&gt;
+&lt;p&gt;原因很简单。今天很多 AI 系统都在共享类似结构：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;prompt / context compaction pipeline&lt;/li&gt;
+&lt;li&gt;权限链条&lt;/li&gt;
+&lt;li&gt;MCP 或类似工具接口&lt;/li&gt;
+&lt;li&gt;外部仓库、外部服务、外部插件&lt;/li&gt;
+&lt;li&gt;自动化执行能力&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这些东西单看都合理，叠在一起就变成了一个很大的风险放大器。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>NVIDIA NemoClaw, OpenAI&#39;s Pivot and Shopify Agents</title>
-      <link>https://yefangjie.github.io/blog/posts/nvidia-nemoclaw-ce-p69dv1jw/</link>
+      <link>https://yefangjie.de5.net/posts/nvidia-nemoclaw-ce-p69dv1jw/</link>
       <pubDate>Mon, 23 Mar 2026 09:00:00 +0800</pubDate>
-      <guid>https://yefangjie.github.io/blog/posts/nvidia-nemoclaw-ce-p69dv1jw/</guid>
+      <guid>https://yefangjie.de5.net/posts/nvidia-nemoclaw-ce-p69dv1jw/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Major developments in the AI agent ecosystem: NVIDIA&amp;rsquo;s NemoClaw framework, OpenAI&amp;rsquo;s strategic pivot, and Shopify&amp;rsquo;s approach to AI agents.&lt;/p&gt;
 &lt;h2 id=&#34;nvidia-nemoclaw&#34;&gt;NVIDIA NemoClaw&lt;/h2&gt;
@@ -35,9 +132,9 @@
     </item>
     <item>
       <title>Opus 4.6 vs GPT-5.3-Codex: AI Coding Model Showdown</title>
-      <link>https://yefangjie.github.io/blog/posts/opus-vs-codex-if9uvjqum38/</link>
+      <link>https://yefangjie.de5.net/posts/opus-vs-codex-if9uvjqum38/</link>
       <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://yefangjie.github.io/blog/posts/opus-vs-codex-if9uvjqum38/</guid>
+      <guid>https://yefangjie.de5.net/posts/opus-vs-codex-if9uvjqum38/</guid>
       <description>&lt;h1 id=&#34;opus-46-vs-gpt-53-codex-ai-coding-model-showdown&#34;&gt;Opus 4.6 vs GPT-5.3-Codex: AI Coding Model Showdown&lt;/h1&gt;
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This IBM Technology segment compares two leading AI coding models: Claude&amp;rsquo;s Opus 4.6 and OpenAI&amp;rsquo;s GPT-5.3-Codex. The speaker shares practical insights from hands-on experience with both systems.&lt;/p&gt;

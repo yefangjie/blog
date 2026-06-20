@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI Coding on 技术博客</title>
+    <link>https://yefangjie.de5.net/tags/ai-coding/</link>
+    <description>Recent content in AI Coding on 技术博客</description>
+    <generator>Hugo -- 0.146.5</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 11 Jun 2026 19:34:44 +0800</lastBuildDate>
+    <atom:link href="https://yefangjie.de5.net/tags/ai-coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SaaStr AI 频道：这条内容为什么值得从一条视频，沉淀成一篇正式文章</title>
+      <link>https://yefangjie.de5.net/posts/saastr-ai-tired-vs-wired-4-trillion-in-ipos-coming-100b-in-m-a-and-why-the-saaspocalypse-is-over-2026-06-11-19-34-pu4ierjqwam/</link>
+      <pubDate>Thu, 11 Jun 2026 19:34:44 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/saastr-ai-tired-vs-wired-4-trillion-in-ipos-coming-100b-in-m-a-and-why-the-saaspocalypse-is-over-2026-06-11-19-34-pu4ierjqwam/</guid>
+      <description>解读 SaaStr AI 频道 这期约 50 分钟的视频，聚焦 AI Agent，核心涉及 AI、AI Agent、AI Agents、产品、AI Coding、增长。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。</description>
+    </item>
+    <item>
+      <title>Claude 讲 AI Native Engineering：真正难的不是写代码，而是重写工程组织</title>
+      <link>https://yefangjie.de5.net/posts/claude-running-an-ai-native-engineering-org-igo8iyca2-g/</link>
+      <pubDate>Thu, 14 May 2026 21:39:28 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/claude-running-an-ai-native-engineering-org-igo8iyca2-g/</guid>
+      <description>解读 Claude 这期 28 分钟演讲：当 agentic coding 从个人工具变成团队默认工作方式，真正的瓶颈会从编码转向 review、ownership、planning、hiring 与组织设计。</description>
+    </item>
+    <item>
+      <title>Boris Cherny 和 Claude Code：当他说 coding is solved，他真正改写的是软件生产与工作的分工</title>
+      <link>https://yefangjie.de5.net/posts/boris-cherny-claude-code-coding-is-solved-and-the-future-of-work/</link>
+      <pubDate>Sat, 09 May 2026 20:05:00 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/boris-cherny-claude-code-coding-is-solved-and-the-future-of-work/</guid>
+      <description>结合 Sequoia 与 CNBC 两场 Boris Cherny 访谈，这篇文章讨论的重点不是一句“coding is solved”，而是 Claude Code 背后正在发生的更大变化：软件生产的最小单位在变，知识工作的分工也在变。</description>
+    </item>
+    <item>
+      <title>Boris 说“coding is solved”时，真正被改写的不是程序员，而是软件生产的最小单位</title>
+      <link>https://yefangjie.de5.net/posts/sequoia-capital-anthropic-s-boris-cherny-why-coding-is-solved-and-what-comes-next-slgrn8jh2ri/</link>
+      <pubDate>Sat, 09 May 2026 19:37:51 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/sequoia-capital-anthropic-s-boris-cherny-why-coding-is-solved-and-what-comes-next-slgrn8jh2ri/</guid>
+      <description>解读 Boris Cherny 在 Sequoia 这场关于 Claude Code 的分享。重点不在一句“coding is solved”，而在它背后透露出的变化：工程师的价值，正在从直接写代码转向组织软件生产系统。</description>
+    </item>
+  </channel>
+</rss>

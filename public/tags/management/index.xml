@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Management on 技术博客</title>
-    <link>https://yefangjie.github.io/blog/tags/management/</link>
+    <link>https://yefangjie.de5.net/tags/management/</link>
     <description>Recent content in Management on 技术博客</description>
     <generator>Hugo -- 0.146.5</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yefangjie.github.io/blog/tags/management/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yefangjie.de5.net/tags/management/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Better Instructions, Better AI Results: The Communication Gap</title>
-      <link>https://yefangjie.github.io/blog/posts/better-instructions-better-ai-results-ajesffzvfay/</link>
+      <link>https://yefangjie.de5.net/posts/better-instructions-better-ai-results-ajesffzvfay/</link>
       <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://yefangjie.github.io/blog/posts/better-instructions-better-ai-results-ajesffzvfay/</guid>
+      <guid>https://yefangjie.de5.net/posts/better-instructions-better-ai-results-ajesffzvfay/</guid>
       <description>&lt;h1 id=&#34;better-instructions-better-ai-results-the-communication-gap&#34;&gt;Better Instructions, Better AI Results: The Communication Gap&lt;/h1&gt;
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This IBM Technology video explores a fundamental shift in how we interact with AI systems - the recognition that clear, precise communication with AI agents requires the same (or greater) level of care as managing human teams.&lt;/p&gt;

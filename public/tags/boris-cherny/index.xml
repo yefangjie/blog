@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Boris Cherny on 技术博客</title>
+    <link>https://yefangjie.de5.net/tags/boris-cherny/</link>
+    <description>Recent content in Boris Cherny on 技术博客</description>
+    <generator>Hugo -- 0.146.5</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 09 May 2026 20:05:00 +0800</lastBuildDate>
+    <atom:link href="https://yefangjie.de5.net/tags/boris-cherny/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Boris Cherny 和 Claude Code：当他说 coding is solved，他真正改写的是软件生产与工作的分工</title>
+      <link>https://yefangjie.de5.net/posts/boris-cherny-claude-code-coding-is-solved-and-the-future-of-work/</link>
+      <pubDate>Sat, 09 May 2026 20:05:00 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/boris-cherny-claude-code-coding-is-solved-and-the-future-of-work/</guid>
+      <description>结合 Sequoia 与 CNBC 两场 Boris Cherny 访谈，这篇文章讨论的重点不是一句“coding is solved”，而是 Claude Code 背后正在发生的更大变化：软件生产的最小单位在变，知识工作的分工也在变。</description>
+    </item>
+  </channel>
+</rss>

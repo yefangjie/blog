@@ -2,59 +2,115 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on 技术博客</title>
-    <link>https://yefangjie.github.io/blog/categories/</link>
+    <link>https://yefangjie.de5.net/categories/</link>
     <description>Recent content in Categories on 技术博客</description>
     <generator>Hugo -- 0.146.5</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 23 Mar 2026 09:00:00 +0800</lastBuildDate>
-    <atom:link href="https://yefangjie.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Jun 2026 11:22:58 +0800</lastBuildDate>
+    <atom:link href="https://yefangjie.de5.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI 产品</title>
+      <link>https://yefangjie.de5.net/categories/ai-%E4%BA%A7%E5%93%81/</link>
+      <pubDate>Sat, 20 Jun 2026 11:22:58 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/categories/ai-%E4%BA%A7%E5%93%81/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI 安全</title>
+      <link>https://yefangjie.de5.net/categories/ai-%E5%AE%89%E5%85%A8/</link>
+      <pubDate>Sat, 20 Jun 2026 11:21:41 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/categories/ai-%E5%AE%89%E5%85%A8/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI 商业</title>
+      <link>https://yefangjie.de5.net/categories/ai-%E5%95%86%E4%B8%9A/</link>
+      <pubDate>Sat, 20 Jun 2026 11:20:23 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/categories/ai-%E5%95%86%E4%B8%9A/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI 工程</title>
+      <link>https://yefangjie.de5.net/categories/ai-%E5%B7%A5%E7%A8%8B/</link>
+      <pubDate>Sat, 20 Jun 2026 11:17:46 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/categories/ai-%E5%B7%A5%E7%A8%8B/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI 洞察</title>
+      <link>https://yefangjie.de5.net/categories/ai-%E6%B4%9E%E5%AF%9F/</link>
+      <pubDate>Thu, 11 Jun 2026 19:46:24 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/categories/ai-%E6%B4%9E%E5%AF%9F/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AI Business</title>
-      <link>https://yefangjie.github.io/blog/categories/ai-business/</link>
-      <pubDate>Mon, 23 Mar 2026 09:00:00 +0800</pubDate>
-      <guid>https://yefangjie.github.io/blog/categories/ai-business/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI Ethics</title>
-      <link>https://yefangjie.github.io/blog/categories/ai-ethics/</link>
-      <pubDate>Mon, 23 Mar 2026 09:00:00 +0800</pubDate>
-      <guid>https://yefangjie.github.io/blog/categories/ai-ethics/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI Platform</title>
-      <link>https://yefangjie.github.io/blog/categories/ai-platform/</link>
-      <pubDate>Mon, 23 Mar 2026 09:00:00 +0800</pubDate>
-      <guid>https://yefangjie.github.io/blog/categories/ai-platform/</guid>
+      <link>https://yefangjie.de5.net/categories/ai-business/</link>
+      <pubDate>Thu, 07 May 2026 05:50:00 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/categories/ai-business/</guid>
       <description></description>
     </item>
     <item>
       <title>AI Security</title>
-      <link>https://yefangjie.github.io/blog/categories/ai-security/</link>
+      <link>https://yefangjie.de5.net/categories/ai-security/</link>
+      <pubDate>Wed, 22 Apr 2026 13:52:00 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/categories/ai-security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI Engineering</title>
+      <link>https://yefangjie.de5.net/categories/ai-engineering/</link>
+      <pubDate>Tue, 21 Apr 2026 15:20:00 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/categories/ai-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI技术</title>
+      <link>https://yefangjie.de5.net/categories/ai%E6%8A%80%E6%9C%AF/</link>
+      <pubDate>Wed, 25 Mar 2026 06:52:00 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/categories/ai%E6%8A%80%E6%9C%AF/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>财经分析</title>
+      <link>https://yefangjie.de5.net/categories/%E8%B4%A2%E7%BB%8F%E5%88%86%E6%9E%90/</link>
+      <pubDate>Tue, 24 Mar 2026 18:00:00 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/categories/%E8%B4%A2%E7%BB%8F%E5%88%86%E6%9E%90/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI Ethics</title>
+      <link>https://yefangjie.de5.net/categories/ai-ethics/</link>
       <pubDate>Mon, 23 Mar 2026 09:00:00 +0800</pubDate>
-      <guid>https://yefangjie.github.io/blog/categories/ai-security/</guid>
+      <guid>https://yefangjie.de5.net/categories/ai-ethics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI Platform</title>
+      <link>https://yefangjie.de5.net/categories/ai-platform/</link>
+      <pubDate>Mon, 23 Mar 2026 09:00:00 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/categories/ai-platform/</guid>
       <description></description>
     </item>
     <item>
       <title>IoT Security</title>
-      <link>https://yefangjie.github.io/blog/categories/iot-security/</link>
+      <link>https://yefangjie.de5.net/categories/iot-security/</link>
       <pubDate>Mon, 23 Mar 2026 09:00:00 +0800</pubDate>
-      <guid>https://yefangjie.github.io/blog/categories/iot-security/</guid>
+      <guid>https://yefangjie.de5.net/categories/iot-security/</guid>
       <description></description>
     </item>
     <item>
       <title>Security</title>
-      <link>https://yefangjie.github.io/blog/categories/security/</link>
+      <link>https://yefangjie.de5.net/categories/security/</link>
       <pubDate>Mon, 23 Mar 2026 09:00:00 +0800</pubDate>
-      <guid>https://yefangjie.github.io/blog/categories/security/</guid>
+      <guid>https://yefangjie.de5.net/categories/security/</guid>
       <description></description>
     </item>
     <item>
       <title>技术</title>
-      <link>https://yefangjie.github.io/blog/categories/%E6%8A%80%E6%9C%AF/</link>
+      <link>https://yefangjie.de5.net/categories/%E6%8A%80%E6%9C%AF/</link>
       <pubDate>Fri, 06 Mar 2026 12:00:00 +0800</pubDate>
-      <guid>https://yefangjie.github.io/blog/categories/%E6%8A%80%E6%9C%AF/</guid>
+      <guid>https://yefangjie.de5.net/categories/%E6%8A%80%E6%9C%AF/</guid>
       <description></description>
     </item>
   </channel>

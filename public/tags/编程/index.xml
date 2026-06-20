@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>编程 on 技术博客</title>
+    <link>https://yefangjie.de5.net/tags/%E7%BC%96%E7%A8%8B/</link>
+    <description>Recent content in 编程 on 技术博客</description>
+    <generator>Hugo -- 0.146.5</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 25 Mar 2026 06:52:00 +0800</lastBuildDate>
+    <atom:link href="https://yefangjie.de5.net/tags/%E7%BC%96%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>编程的终结：Andrej Karpathy 谈 AI Agent 与软件开发的未来</title>
+      <link>https://yefangjie.de5.net/posts/andrej-karpathy-end-of-coding-kwsvtq7dziu/</link>
+      <pubDate>Wed, 25 Mar 2026 06:52:00 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/andrej-karpathy-end-of-coding-kwsvtq7dziu/</guid>
+      <description>&lt;h2 id=&#34;概述&#34;&gt;概述&lt;/h2&gt;
+&lt;p&gt;本期来自 No Priors Podcast 的视频中，前 Tesla AI 总监、OpenAI 创始成员 &lt;strong&gt;Andrej Karpathy&lt;/strong&gt; 分享了他对编程未来的深刻见解。他认为传统意义上的&amp;quot;编程&amp;quot;正在终结，取而代之的是与 AI Agent 协作的新时代。&lt;/p&gt;
+&lt;h2 id=&#34;核心观点&#34;&gt;核心观点&lt;/h2&gt;
+&lt;h3 id=&#34;1-传统编程的终结&#34;&gt;1. 传统编程的终结&lt;/h3&gt;
+&lt;p&gt;Karpathy 认为&amp;quot;编程&amp;quot;(coding)已不再是正确的动词。开发者的工作方式发生了根本转变：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;过去&lt;/strong&gt;：逐行编写代码，计算机执行&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;现在&lt;/strong&gt;：向 AI Agent 表达意图，AI 编写并执行代码&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;未来&lt;/strong&gt;：管理和编排多个 AI Agent 协作&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;代码甚至不再是正确的动词了&amp;rdquo; — Andrej Karpathy&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;2-ai-agent-范式转变&#34;&gt;2. AI Agent 范式转变&lt;/h3&gt;
+&lt;p&gt;对话强调了一个根本性转变。传统模式中，人类写代码、计算机执行。而在新范式下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;人类描述意图和目标&lt;/li&gt;
+&lt;li&gt;AI Agent 理解、规划并执行&lt;/li&gt;
+&lt;li&gt;开发者专注于高层问题解决而非实现细节&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-循环时代loopy-era&#34;&gt;3. &amp;ldquo;循环时代&amp;rdquo;(Loopy Era)&lt;/h3&gt;
+&lt;p&gt;Karpathy 将当前阶段描述为&amp;quot;循环时代&amp;quot;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;无限可能性&lt;/strong&gt;：AI Agent 几乎可以完成任何可描述的任务&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;技能问题&lt;/strong&gt;：一切都成为&amp;quot;技能问题&amp;quot;——只要你能描述，AI 就能做到&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;新瓶颈&lt;/strong&gt;：瓶颈从编程能力转移到问题表述和意图传达能力&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4-自动研究与自主-agent&#34;&gt;4. 自动研究与自主 Agent&lt;/h3&gt;
+&lt;p&gt;讨论中提到的关键发展：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AutoResearch&lt;/strong&gt;：能够自主进行研究的 AI Agent&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;自我优化&lt;/strong&gt;：能够优化自身指令和行为的系统&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多 Agent 协作&lt;/strong&gt;：在复杂任务上并行工作的多个 Agent&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;5-对开发者的影响&#34;&gt;5. 对开发者的影响&lt;/h3&gt;
+&lt;p&gt;Karpathy 描绘了开发者角色的演变：&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

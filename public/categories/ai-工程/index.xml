@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI 工程 on 技术博客</title>
+    <link>https://yefangjie.de5.net/categories/ai-%E5%B7%A5%E7%A8%8B/</link>
+    <description>Recent content in AI 工程 on 技术博客</description>
+    <generator>Hugo -- 0.146.5</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 20 Jun 2026 11:17:46 +0800</lastBuildDate>
+    <atom:link href="https://yefangjie.de5.net/categories/ai-%E5%B7%A5%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IBM 科技频道：这条内容为什么值得从一条视频，沉淀成一篇正式文章</title>
+      <link>https://yefangjie.de5.net/posts/ibm-microsoft-s-new-ai-models-bots-dominate-the-internet-svbhexuky8s/</link>
+      <pubDate>Sat, 20 Jun 2026 11:17:46 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/ibm-microsoft-s-new-ai-models-bots-dominate-the-internet-svbhexuky8s/</guid>
+      <description>解读 IBM 科技频道 这期约 39 分钟的视频，聚焦 AI Agent，核心涉及 AI、AI Agent、AI Agents。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。</description>
+    </item>
+    <item>
+      <title>All-In 播客：这期内容里，真正值得留下来的是什么？</title>
+      <link>https://yefangjie.de5.net/posts/all-in-podcast-anthropic-s-fable-backlash-nationalizing-ai-inflation-heats-up-california-s-broken-elections-gh4ftjdm9fq/</link>
+      <pubDate>Sun, 14 Jun 2026 20:28:15 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/all-in-podcast-anthropic-s-fable-backlash-nationalizing-ai-inflation-heats-up-california-s-broken-elections-gh4ftjdm9fq/</guid>
+      <description>解读 All-In 播客 这期约 0 分钟的视频，聚焦 AI 工程，核心涉及 AI、RAG。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。</description>
+    </item>
+    <item>
+      <title>IBM 科技频道：这期内容里，真正值得留下来的是什么？</title>
+      <link>https://yefangjie.de5.net/posts/ibm-bridging-design-systems-and-code-with-mcp-and-ai-agents-gh1e9vgxzws/</link>
+      <pubDate>Sun, 14 Jun 2026 20:24:58 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/ibm-bridging-design-systems-and-code-with-mcp-and-ai-agents-gh1e9vgxzws/</guid>
+      <description>解读 IBM 科技频道 这期约 0 分钟的视频，聚焦 上下文工程，核心涉及 AI、AI Agent、AI Agents、上下文工程。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。</description>
+    </item>
+    <item>
+      <title>All-In 播客：这期内容里，真正值得留下来的是什么？</title>
+      <link>https://yefangjie.de5.net/posts/all-in-podcast-dan-dreyfus-america-s-infrastructure-is-shockingly-fragile-xto1aq-m44i/</link>
+      <pubDate>Wed, 10 Jun 2026 19:36:49 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/all-in-podcast-dan-dreyfus-america-s-infrastructure-is-shockingly-fragile-xto1aq-m44i/</guid>
+      <description>解读 All-In 播客 这期约 24 分钟的视频，聚焦 AI 工程，核心涉及 RAG。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。</description>
+    </item>
+    <item>
+      <title>Peter Yang 频道：这条内容为什么值得从一条视频，沉淀成一篇正式文章</title>
+      <link>https://yefangjie.de5.net/posts/peter-yang-how-this-ex-meta-l8-engineer-ships-40-prs-a-day-with-ai-agents-kun-chen-88b6dimmd2g/</link>
+      <pubDate>Wed, 10 Jun 2026 19:35:03 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/peter-yang-how-this-ex-meta-l8-engineer-ships-40-prs-a-day-with-ai-agents-kun-chen-88b6dimmd2g/</guid>
+      <description>解读 Peter Yang 频道 这期约 56 分钟的视频，聚焦 AI Agent，核心涉及 AI、AI Agent、AI Agents。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。</description>
+    </item>
+    <item>
+      <title>SaaStr AI 频道：这条内容为什么值得从一条视频，沉淀成一篇正式文章</title>
+      <link>https://yefangjie.de5.net/posts/saastr-ai-what-agents-that-actually-work-look-like-right-now-with-replit-s-ceo-and-founder-rdalltvn2-m/</link>
+      <pubDate>Wed, 10 Jun 2026 19:34:11 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/saastr-ai-what-agents-that-actually-work-look-like-right-now-with-replit-s-ceo-and-founder-rdalltvn2-m/</guid>
+      <description>解读 SaaStr AI 频道 这期约 47 分钟的视频，聚焦 AI Agent，核心涉及 AI、AI Agent、AI Agents。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。</description>
+    </item>
+    <item>
+      <title>IBM 科技频道：这期内容里，真正值得留下来的是什么？</title>
+      <link>https://yefangjie.de5.net/posts/ibm-how-agentic-ai-transforms-maintenance-and-asset-decisions-kvfrbtklg4i/</link>
+      <pubDate>Tue, 19 May 2026 19:33:16 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/ibm-how-agentic-ai-transforms-maintenance-and-asset-decisions-kvfrbtklg4i/</guid>
+      <description>解读 IBM 科技频道 这期约 5 分钟的视频，聚焦 AI Agent，核心涉及 AI、AI Agent。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。</description>
+    </item>
+    <item>
+      <title>IBM 科技频道：这期内容里，真正值得留下来的是什么？</title>
+      <link>https://yefangjie.de5.net/posts/ibm-mcp-vs-adk-how-modern-ai-agents-connect-and-work-together-bedaab1rkge/</link>
+      <pubDate>Mon, 18 May 2026 19:33:28 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/ibm-mcp-vs-adk-how-modern-ai-agents-connect-and-work-together-bedaab1rkge/</guid>
+      <description>解读 IBM 科技频道 这期约 14 分钟的视频，聚焦 上下文工程，核心涉及 AI、AI Agent、AI Agents。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。</description>
+    </item>
+    <item>
+      <title>Claude 讲 AI Native Engineering：真正难的不是写代码，而是重写工程组织</title>
+      <link>https://yefangjie.de5.net/posts/claude-running-an-ai-native-engineering-org-igo8iyca2-g/</link>
+      <pubDate>Thu, 14 May 2026 21:39:28 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/claude-running-an-ai-native-engineering-org-igo8iyca2-g/</guid>
+      <description>解读 Claude 这期 28 分钟演讲：当 agentic coding 从个人工具变成团队默认工作方式，真正的瓶颈会从编码转向 review、ownership、planning、hiring 与组织设计。</description>
+    </item>
+    <item>
+      <title>IBM 科技频道：这期内容里，真正值得留下来的是什么？</title>
+      <link>https://yefangjie.de5.net/posts/ibm-why-agentic-ai-fails-infinite-loops-planning-errors-and-more-d37ijn2o5u0/</link>
+      <pubDate>Thu, 14 May 2026 19:33:15 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/ibm-why-agentic-ai-fails-infinite-loops-planning-errors-and-more-d37ijn2o5u0/</guid>
+      <description>解读 IBM 科技频道 这期约 12 分钟的视频，聚焦 AI Agent，核心涉及 AI、AI Agent。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。</description>
+    </item>
+    <item>
+      <title>SaaStr AI 频道：这条内容为什么值得从一条视频，沉淀成一篇正式文章</title>
+      <link>https://yefangjie.de5.net/posts/saastr-ai-our-ai-is-hiring-would-you-work-for-one-and-are-autonomous-agents-safe-the-agents-005-3lco8wczumo/</link>
+      <pubDate>Wed, 13 May 2026 19:34:05 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/saastr-ai-our-ai-is-hiring-would-you-work-for-one-and-are-autonomous-agents-safe-the-agents-005-3lco8wczumo/</guid>
+      <description>解读 SaaStr AI 频道 这期约 78 分钟的视频，聚焦 AI Agent，核心涉及 AI、AI Agent、AI Agents。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。</description>
+    </item>
+    <item>
+      <title>IBM 科技频道：这期内容里，真正值得留下来的是什么？</title>
+      <link>https://yefangjie.de5.net/posts/ibm-why-ai-agents-need-an-operating-system-ivgjbxqygmi/</link>
+      <pubDate>Tue, 12 May 2026 19:33:15 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/ibm-why-ai-agents-need-an-operating-system-ivgjbxqygmi/</guid>
+      <description>解读 IBM 科技频道 这期约 12 分钟的视频，聚焦 AI Agent，核心涉及 AI、AI Agent、AI Agents。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。</description>
+    </item>
+    <item>
+      <title>Peter Yang 频道 这期最值得记住的，不是八卦，而是 AI 竞争逻辑正在变化</title>
+      <link>https://yefangjie.de5.net/posts/peter-yang-automate-your-life-with-claude-code-in-40-minutes-moritz-kremb-acrd0ikg-ki/</link>
+      <pubDate>Tue, 12 May 2026 06:42:39 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/peter-yang-automate-your-life-with-claude-code-in-40-minutes-moritz-kremb-acrd0ikg-ki/</guid>
+      <description>解读 Peter Yang 频道 这期约 42 分钟的视频，聚焦 上下文工程，核心涉及 AI、AI Agent。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。</description>
+    </item>
+    <item>
+      <title>IBM 科技频道：这期内容里，真正值得留下来的是什么？</title>
+      <link>https://yefangjie.de5.net/posts/ibm-predictive-vs-generative-ai-how-they-work-and-when-to-use-each-phohgqpxss4/</link>
+      <pubDate>Tue, 12 May 2026 06:41:52 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/ibm-predictive-vs-generative-ai-how-they-work-and-when-to-use-each-phohgqpxss4/</guid>
+      <description>解读 IBM 科技频道 这期约 11 分钟的视频，聚焦 AI 工程，核心涉及 AI、LLM。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。</description>
+    </item>
+    <item>
+      <title>IBM 科技频道：这期内容里，真正值得留下来的是什么？</title>
+      <link>https://yefangjie.de5.net/posts/ibm-agentic-consent-explained-how-ai-agents-act-safely-and-responsibly-v-qjirvwyrq/</link>
+      <pubDate>Mon, 11 May 2026 08:02:25 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/ibm-agentic-consent-explained-how-ai-agents-act-safely-and-responsibly-v-qjirvwyrq/</guid>
+      <description>解读 IBM 科技频道 这期约 14 分钟的视频，聚焦 上下文工程，核心涉及 AI、AI Agent、AI Agents。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。</description>
+    </item>
+    <item>
+      <title>Peter Yang 频道 这期最值得记住的，不是八卦，而是 AI 竞争逻辑正在变化</title>
+      <link>https://yefangjie.de5.net/posts/peter-yang-build-a-claude-code-personal-os-step-by-step-in-40-minutes-moritz-kremb-acrd0ikg-ki/</link>
+      <pubDate>Mon, 11 May 2026 08:01:47 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/peter-yang-build-a-claude-code-personal-os-step-by-step-in-40-minutes-moritz-kremb-acrd0ikg-ki/</guid>
+      <description>解读 Peter Yang 频道 这期约 42 分钟的视频，聚焦 上下文工程，核心涉及 AI、AI Agent。本文提炼这期内容为什么重要、适合谁看，以及它对后续内容生产线有什么启发。</description>
+    </item>
+  </channel>
+</rss>

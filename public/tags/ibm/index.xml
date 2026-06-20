@@ -2,17 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>IBM on 技术博客</title>
-    <link>https://yefangjie.github.io/blog/tags/ibm/</link>
+    <link>https://yefangjie.de5.net/tags/ibm/</link>
     <description>Recent content in IBM on 技术博客</description>
     <generator>Hugo -- 0.146.5</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 23 Mar 2026 09:00:00 +0800</lastBuildDate>
-    <atom:link href="https://yefangjie.github.io/blog/tags/ibm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Apr 2026 19:33:00 +0800</lastBuildDate>
+    <atom:link href="https://yefangjie.de5.net/tags/ibm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude Mythos、Project Glasswing 与 AI 安全现实：IBM Technology 新一期内容解读</title>
+      <link>https://yefangjie.de5.net/posts/claude-mythos-project-glasswing-ai-security-dgnhbf-ktku/</link>
+      <pubDate>Fri, 10 Apr 2026 19:33:00 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/claude-mythos-project-glasswing-ai-security-dgnhbf-ktku/</guid>
+      <description>&lt;p&gt;这期 &lt;strong&gt;Mixture of Experts&lt;/strong&gt; 信息量很大，但核心其实很清楚：&lt;strong&gt;AI 行业已经从“模型能力竞赛”进入“能力、成本与安全三线拉扯”的阶段。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;视频主要讨论了四个主题：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Anthropic Project Glasswing 与 Mythos 模型不发布的原因&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OpenAI 与 Anthropic 财务数据暴露出的路线分化&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GPT-1900 实验：AI 能否重新发现科学突破？&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Masters Vault：用自然语言搜索 58 年高尔夫赛事影像&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;我看完后的判断很直接：&lt;strong&gt;最值得关注的并不是某个模型又强了多少，而是 AI 系统一旦接入工具、代码和企业流程之后，安全边界、推理成本和真实业务价值会同时变成一场硬仗。&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;一project-glasswing--mythos不发布本身就是一个安全信号&#34;&gt;一、Project Glasswing / Mythos：不发布，本身就是一个安全信号&lt;/h2&gt;
+&lt;p&gt;视频开头讨论了 Anthropic 的 &lt;strong&gt;Project Glasswing&lt;/strong&gt;，以及为什么 &lt;strong&gt;Mythos&lt;/strong&gt; 这样的模型不会轻易对外发布。&lt;/p&gt;
+&lt;p&gt;这背后传递的信息非常现实：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;不是“做得出来”就一定要发布&lt;/li&gt;
+&lt;li&gt;工具能力越强，滥用空间也越大&lt;/li&gt;
+&lt;li&gt;一切能被用于“好事”的能力，也几乎一定能被别人用于“坏事”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这不是保守，而是成熟。很多人对 AI 的想象还停留在“模型越开放越先进”，但对企业和安全团队来说，问题从来不是“能不能做”，而是：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;谁能调用？&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;调用后能接触什么？&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;一旦被提示注入或供应链污染，会造成多大损失？&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果一个模型已经具备较强的代理式能力、工具调用能力，甚至能操作代码、流程和外部系统，那么它面对的就不再只是“模型评测榜单”，而是完整的攻击面。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;我的看法：Anthropic 不把某些能力直接放出去，不是怂，是知道这玩意儿一旦放开，后果不止是 demo 跑飞，而是安全研究成本骤降、攻击者学习曲线被抹平。&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;二ai-安全的麻烦不在某一家而在整个-agentic-ai-结构&#34;&gt;二、AI 安全的麻烦，不在某一家，而在整个 Agentic AI 结构&lt;/h2&gt;
+&lt;p&gt;视频里一个很关键的观点是：某些泄露或攻击事件并不只是某个产品自己的问题，而是整个 &lt;strong&gt;Agentic AI&lt;/strong&gt; 生态的系统性脆弱性暴露。&lt;/p&gt;
+&lt;p&gt;原因很简单。今天很多 AI 系统都在共享类似结构：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;prompt / context compaction pipeline&lt;/li&gt;
+&lt;li&gt;权限链条&lt;/li&gt;
+&lt;li&gt;MCP 或类似工具接口&lt;/li&gt;
+&lt;li&gt;外部仓库、外部服务、外部插件&lt;/li&gt;
+&lt;li&gt;自动化执行能力&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这些东西单看都合理，叠在一起就变成了一个很大的风险放大器。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>What is Agentic Security Runtime? Securing AI Agents</title>
-      <link>https://yefangjie.github.io/blog/posts/agentic-security-runtime-nh0plidqdmk/</link>
+      <link>https://yefangjie.de5.net/posts/agentic-security-runtime-nh0plidqdmk/</link>
       <pubDate>Mon, 23 Mar 2026 09:00:00 +0800</pubDate>
-      <guid>https://yefangjie.github.io/blog/posts/agentic-security-runtime-nh0plidqdmk/</guid>
+      <guid>https://yefangjie.de5.net/posts/agentic-security-runtime-nh0plidqdmk/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;This video explores the emerging field of agentic security runtime - a critical new layer of security designed specifically for AI agents that operate autonomously.&lt;/p&gt;
 &lt;h2 id=&#34;what-is-agentic-security-runtime&#34;&gt;What is Agentic Security Runtime?&lt;/h2&gt;

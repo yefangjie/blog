@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>All-in Podcast on 技术博客</title>
+    <link>https://yefangjie.de5.net/tags/all-in-podcast/</link>
+    <description>Recent content in All-in Podcast on 技术博客</description>
+    <generator>Hugo -- 0.146.5</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 06 May 2026 23:35:00 +0800</lastBuildDate>
+    <atom:link href="https://yefangjie.de5.net/tags/all-in-podcast/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>All-In Podcast 这一期最值得看的，不是八卦，而是 AI 竞争开始从模型秀场转向工作流之争</title>
+      <link>https://yefangjie.de5.net/posts/all-in-openai-codex-claude-workflow-competition-fpc4sbawszq/</link>
+      <pubDate>Wed, 06 May 2026 23:35:00 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/all-in-openai-codex-claude-workflow-competition-fpc4sbawszq/</guid>
+      <description>&lt;p&gt;这期 &lt;strong&gt;All-In Podcast&lt;/strong&gt; 表面上聊得很散：OpenAI targets、Codex vs Claude、Elon vs Sam、科技巨头财报、AI coding 事故、peptides。&lt;/p&gt;
+&lt;p&gt;但如果把其中最关键的 AI 片段拎出来看，会得到一个比“谁家模型更强”更重要的判断：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;AI 的竞争，正在从模型演示，转向工作流嵌入、分发能力和基础设施兑现。&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;这才是我觉得这期最值得关注的地方。&lt;/p&gt;
+&lt;h2 id=&#34;一openai-misses-targets市场开始要求兑现而不只是声量&#34;&gt;一、OpenAI misses targets：市场开始要求兑现，而不只是声量&lt;/h2&gt;
+&lt;p&gt;OpenAI 依然是 AI 里最强的品牌之一，这点没变。&lt;/p&gt;
+&lt;p&gt;但“misses targets” 这类讨论真正重要的，不是 drama，而是市场评价逻辑正在变得更现实。&lt;/p&gt;
+&lt;p&gt;早期阶段，大家会盯着：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;模型是不是最聪明&lt;/li&gt;
+&lt;li&gt;demo 是不是最惊艳&lt;/li&gt;
+&lt;li&gt;叙事是不是最会打&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;但当行业进入更深的商业化阶段，问题会迅速变成：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用量有没有兑现&lt;/li&gt;
+&lt;li&gt;企业采用是否持续&lt;/li&gt;
+&lt;li&gt;产品有没有真正进入日常流程&lt;/li&gt;
+&lt;li&gt;增长是不是有质量&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这意味着，AI 公司正在从“制造想象”进入“证明运营能力”的阶段。&lt;/p&gt;
+&lt;h2 id=&#34;二codex-vs-claude这不是单纯的模型对比而是-workflow-battle&#34;&gt;二、Codex vs Claude：这不是单纯的模型对比，而是 workflow battle&lt;/h2&gt;
+&lt;p&gt;节目里关于 Codex 和 Claude 的比较，我最在意的不是模型谁更强，而是开发者工作流入口这件事。&lt;/p&gt;
+&lt;p&gt;coding 产品最后比的，往往不是一次性惊艳，而是长期嵌入：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;是否出现在开发者每天都会经过的环节里&lt;/li&gt;
+&lt;li&gt;是否持续减少摩擦&lt;/li&gt;
+&lt;li&gt;是否稳定到能被真实团队依赖&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;所以它本质上越来越像平台竞争：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;比集成位置&lt;/li&gt;
+&lt;li&gt;比 adoption friction&lt;/li&gt;
+&lt;li&gt;比团队迁移成本&lt;/li&gt;
+&lt;li&gt;比 workflow lock-in&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;谁能占住工作流，谁才更可能把模型能力转成长期商业结果。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;三hyperscaler-capex-还在爆这轮基础设施争夺远没结束&#34;&gt;三、hyperscaler capex 还在爆：这轮基础设施争夺远没结束&lt;/h2&gt;
+&lt;p&gt;节目里关于大厂财报和资本开支的讨论，同样很值得看。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Anthropic Mythos 是安全预警，还是高明营销？All-In Podcast 这场辩论值得看</title>
+      <link>https://yefangjie.de5.net/posts/anthropic-mythos-all-in-podcast-dvbjqqcjgxu/</link>
+      <pubDate>Wed, 22 Apr 2026 13:52:00 +0800</pubDate>
+      <guid>https://yefangjie.de5.net/posts/anthropic-mythos-all-in-podcast-dvbjqqcjgxu/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Anthropic Mythos cover&#34; loading=&#34;lazy&#34; src=&#34;https://yefangjie.de5.net/images/posts/mythos-allin-cover.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;图：这篇文章讨论的不是普通聊天机器人能力，而是 AI 开始逼近网络攻防基础设施层的风险。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;这期 &lt;strong&gt;All-In Podcast&lt;/strong&gt; 聊的是一个很有意思、也很容易被讲歪的话题：&lt;strong&gt;Anthropic 为什么不公开发布 Mythos 模型？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;表面上看，这是一次关于 AI 安全的讨论；但往深里看，这其实是一场关于 &lt;strong&gt;技术真实风险、公司叙事能力、政策协调，以及 AI 网络攻防未来&lt;/strong&gt; 的交叉辩论。&lt;/p&gt;
+&lt;p&gt;我看完后的判断很直接：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;这件事既不是纯营销，也不是纯道德秀。它更像是一个真实风险，被一家特别会讲故事的公司，用了最会制造注意力的方式讲出来。&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;先说结论&#34;&gt;先说结论&lt;/h2&gt;
+&lt;div class=&#34;article-cards-grid cards-cols-2&#34;&gt;
+  
+&lt;div class=&#34;article-card card-primary&#34;&gt;
+  &lt;div class=&#34;article-card-title&#34;&gt;核心判断&lt;/div&gt;
+  &lt;div class=&#34;article-card-body&#34;&gt;
+    &lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mythos 这类模型的风险大概率是真的&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;这一次的威胁，逻辑上比过去那些“黑箱黑邮件”类故事更扎实&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;未来 6 到 12 个月，AI for cyber offense / defense 的军备竞赛会明显加速&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;article-card card-muted&#34;&gt;
+  &lt;div class=&#34;article-card-title&#34;&gt;真正该盯的重点&lt;/div&gt;
+  &lt;div class=&#34;article-card-body&#34;&gt;
+    &lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;真正重要的问题不是 Mythos 会不会公开&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;而是谁先用 AI 把旧互联网的陈年漏洞扫一遍&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;现实世界的攻击面，可能正在被重新定价&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+&lt;p&gt;Anthropic 过去确实有“边发产品边制造风险叙事”的惯性，但这次不能只当 drama 看。问题已经不是品牌战，而是网络攻防的现实门槛可能被整体改写。&lt;/p&gt;
+&lt;h2 id=&#34;为什么这篇值得看&#34;&gt;为什么这篇值得看&lt;/h2&gt;
+&lt;p&gt;和常见的 AI 新闻不同，这期内容不只是“某家公司又发了一个厉害模型”，而是在追问三个更硬的问题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AI coding 能力变强，是否必然外溢到网络攻击能力？&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;前沿模型公司是在认真做安全治理，还是也在借安全叙事做市场教育？&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;如果旧互联网的漏洞会被 AI 重新批量挖一遍，谁来抢那段防守窗口期？&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果你关心的不只是模型跑分，而是 AI 真正如何影响现实系统，那这篇比大多数“模型测评文”更值得读。&lt;/p&gt;
+&lt;h2 id=&#34;mythos-为什么跟一般模型不一样&#34;&gt;Mythos 为什么跟一般模型不一样？&lt;/h2&gt;
+&lt;p&gt;先把一句话说透：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Mythos 讨论的不是“更聪明的聊天能力”，而是“更强的系统弱点发现能力”。&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
